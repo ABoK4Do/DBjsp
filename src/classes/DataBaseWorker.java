@@ -7,11 +7,14 @@ import java.util.ArrayList;
  * Created by ABoK4Do on 07.12.16.
  */
 public class DataBaseWorker {
-    private static String dbURL = "jdbc:derby:/Users/ABoK4Do/Documents/DBjsp/Restaurant;create=false";
+    private static String dbURL = "jdbc:derby:Restaurant;create=false";
     private static String driver = "org.apache.derby.jdbc.EmbeddedDriver";
     private static final String queryShowDB = "Select t1.Name as name, t2.NAME as Cat_name, t1.PRICE price " +
                                               "From APP.FOODS t1 LEFT JOIN APP.CATEGORY t2 " +
                                               "ON t1.CATEGORY_ID = t2.ID";
+    private static final String queryShowAll = "Select t1.*, '||||||', t2.*" +
+                                                "From APP.FOODS t1 LEFT JOIN APP.CATEGORY t2 " +
+                                                 "ON t1.CATEGORY_ID = t2.ID";
 
     private static Connection conn = null;
     private static Statement stmt = null;
@@ -19,10 +22,11 @@ public class DataBaseWorker {
 
     private static void createConnection()
     {
+
         try {
             Class.forName(driver).newInstance();
             conn = DriverManager.getConnection(dbURL);
-            stmt = conn.createStatement();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -40,12 +44,14 @@ public class DataBaseWorker {
             //Добавляю новую строку
             if(args.length==3){
                 results = stmt.executeQuery("SELECT ID From APP.CATEGORY WHERE NAME='"+args[1].toString()+"'");
-                results.next();
-                int cat_id = results.getInt(1);
+                int cat_id;
+                if(results.next()){
+                cat_id = results.getInt(1);}
+                else cat_id = 0;
 
-                stmt.executeUpdate("INSERT INTO APP.FOODS(ID, NAME, CATEGORY_ID, PRICE) VALUES("+newID+",'"+name+"',"+cat_id+","+(int)args[2]+")");}
+                stmt.executeUpdate("INSERT INTO APP.FOODS(ID, NAME, CATEGORY_ID, PRICE) VALUES("+newID+",'"+name+"',"+cat_id+","+Integer.parseInt(args[2].toString())+")");}
             if(args.length==2){
-                stmt.executeUpdate("INSERT INTO APP.FOODS(ID, NAME, PRICE) VALUES("+newID+",'"+name+"',"+(int)args[1]+")");
+                stmt.executeUpdate("INSERT INTO APP.FOODS(ID, NAME, PRICE) VALUES("+newID+",'"+name+"',"+Integer.parseInt(args[1].toString())+")");
                 }
             stmt.close();
 
@@ -63,7 +69,7 @@ public class DataBaseWorker {
         try {
             if(conn == null) { createConnection();}
             stmt = conn.createStatement();
-            results = stmt.executeQuery(queryShowDB);
+            results = stmt.executeQuery(queryShowAll);
             ResultSetMetaData rsmd = null;
             //Вывод результата запроса в виде ArrayList, состоящий из ArrayListов
             try {

@@ -1,0 +1,52 @@
+10-Jan-2017 03:36:00.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.9
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2016 20:18:12 UTC
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.9.0
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9
+10-Jan-2017 03:36:00.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9
+10-Jan-2017 03:36:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/conf/logging.properties
+10-Jan-2017 03:36:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jan-2017 03:36:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jan-2017 03:36:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jan-2017 03:36:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9
+10-Jan-2017 03:36:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9
+10-Jan-2017 03:36:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/temp
+10-Jan-2017 03:36:00.754 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/ABoK4Do/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+10-Jan-2017 03:36:00.922 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jan-2017 03:36:00.955 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jan-2017 03:36:00.959 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Jan-2017 03:36:00.960 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jan-2017 03:36:00.960 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 628 ms
+10-Jan-2017 03:36:00.982 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Jan-2017 03:36:00.982 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.9
+10-Jan-2017 03:36:00.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/docs
+10-Jan-2017 03:36:01.556 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2017 03:36:01.646 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/docs has finished in 656 ms
+10-Jan-2017 03:36:01.647 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/examples
+10-Jan-2017 03:36:01.995 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2017 03:36:02.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/examples has finished in 374 ms
+10-Jan-2017 03:36:02.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/host-manager
+10-Jan-2017 03:36:02.232 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2017 03:36:02.235 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/host-manager has finished in 214 ms
+10-Jan-2017 03:36:02.235 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/manager
+10-Jan-2017 03:36:02.477 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2017 03:36:02.479 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/manager has finished in 244 ms
+10-Jan-2017 03:36:02.479 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/ROOT
+10-Jan-2017 03:36:02.701 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2017 03:36:02.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ABoK4Do/Documents/DBjsp/localsrc/apache-tomcat-8.5.9/webapps/ROOT has finished in 223 ms
+10-Jan-2017 03:36:02.704 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+10-Jan-2017 03:36:02.708 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+10-Jan-2017 03:36:02.708 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1748 ms
+10-Jan-2017 03:36:24.671 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jan-2017 03:36:24.672 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jan-2017 03:36:26.674 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Jan-2017 03:36:28.681 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+10-Jan-2017 03:36:28.702 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jan-2017 03:36:30.713 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Jan-2017 03:36:32.718 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jan-2017 03:36:32.719 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
