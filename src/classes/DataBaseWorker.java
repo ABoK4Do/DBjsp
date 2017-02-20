@@ -3,6 +3,7 @@ package classes;
 import java.sql.*;
 import java.util.ArrayList;
 
+
 /**
  * Created by ABoK4Do on 07.12.16.
  */
@@ -61,7 +62,7 @@ public class DataBaseWorker {
             e.printStackTrace();
         }
     }
-    public static ArrayList showDB(){
+    public static ResultPOJO showDB(){
 
         ArrayList listTable = new ArrayList();
         listTable.clear();
@@ -106,8 +107,9 @@ public class DataBaseWorker {
             e.printStackTrace();
         }
 
-
-        return listTable;
+        ResultPOJO Result = new ResultPOJO();
+        Result.setResultPOJO(listTable);
+        return Result;
     }
     public static void delOne(String name){
         //Проверяю подключение к базе данных

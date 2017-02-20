@@ -48,7 +48,7 @@
 
 <table class="showAll">
         <%
-        ArrayList listTable = DataBaseWorker.showDB();
+        ArrayList listTable = DataBaseWorker.showDB().getResultPOJO();
         int columns = ((ArrayList)listTable.get(0)).size();
         for (Object s : listTable){
         %>
