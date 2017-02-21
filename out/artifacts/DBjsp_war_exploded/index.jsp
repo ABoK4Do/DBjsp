@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="classes.DataBaseWorker" %>
 <%@ page import="java.util.ArrayList" %>
+<%@ page import="classes.ResultPOJO" %>
 <html>
 <head>
     <title>Restaurant</title>
@@ -47,20 +48,32 @@
 <div class="top-name"><h3>Table:</h3></div>
 
 <table class="showAll">
-        <%
-        ArrayList listTable = DataBaseWorker.showDB().getResultPOJO();
-        int columns = ((ArrayList)listTable.get(0)).size();
-        for (Object s : listTable){
-        %>
-
         <tr>
-            <%
-            for (int i = 0; i < columns; i++) {
-            %>
-
-            <th><%=(String)((ArrayList)s).get(i)%></th>
-            <%}%>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category_ID</th>
+            <th>Price</th>
+            <th>|||||</th>
+            <th>Cat_ID</th>
+            <th>Name</th>
         </tr>
+        <%
+        ArrayList<ResultPOJO> listTable = DataBaseWorker.showDB();
+        for (ResultPOJO s : listTable){
+        %>
+    <tr>
+
+        <th><%=Integer.toString(s.getId())%></th>
+        <th><%=(s.getName())%></th>
+        <th><%=Integer.toString(s.getCat_id1())%></th>
+        <th><%=Float.toString(s.getPrice())%></th>
+        <th>|||||</th>
+        <th><%=Integer.toString(s.getCat_id2())%></th>
+        <th><%=(s.getCat_name())%></th>
+
+    </tr>
+
+
         <%}%>
     </table>
 <div class="Form" >
