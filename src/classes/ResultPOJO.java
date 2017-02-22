@@ -4,10 +4,12 @@ package classes;
  * Created by ABoK4Do on 21.02.17.
  */
 public class ResultPOJO {
+    //Часть таблицы меню
     private int id;
     private String name;
     private int cat_id1;
     private float price;
+    //Часть таблицы про категории
     private int cat_id2;
     private String cat_name;
 
