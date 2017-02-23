@@ -1,5 +1,7 @@
 package classes;
 
+import org.apache.log4j.Logger;
+
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -16,6 +18,9 @@ public class DataBaseWorker {
 
     private static Connection conn = null;
     private static Statement stmt = null;
+
+    //Логирование
+    private static final Logger log = Logger.getLogger(DataBaseWorker.class);
 
     //Подключение к базе
     private static void createConnection()
@@ -62,6 +67,7 @@ public class DataBaseWorker {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        log.info("add one elem");
     }
 
     //Метод для вывода таблицы. На выходе лист, состоящий из строк таблицы
@@ -93,7 +99,7 @@ public class DataBaseWorker {
             e.printStackTrace();
         }
 
-
+        log.info("DB showed");
         return listTable;
     }
 
@@ -107,8 +113,10 @@ public class DataBaseWorker {
             stmt.executeUpdate("DELETE FROM APP.FOODS WHERE NAME='"+name+"'");
             stmt.close();
         } catch (SQLException e) {
+            log.error("Error while deleting");
             e.printStackTrace();
         }
+        log.info("Deleted");
 
     }
 }
