@@ -34,7 +34,7 @@
         }
         .Form {
             position: fixed;
-            top: 35px;
+            top: 65px;
             right: 150px;
             height: 200px;
             background-color: red;
@@ -49,6 +49,7 @@
 
 <table class="showAll">
         <tr>
+            <th>Photo</th>
             <th>ID</th>
             <th>Name</th>
             <th>Category_ID</th>
@@ -60,9 +61,10 @@
         <%
         ArrayList<ResultPOJO> listTable = DataBaseWorker.showDB();
         for (ResultPOJO s : listTable){
+            String srcLink = "img/"+Integer.toString(s.getId())+".jpg";
         %>
     <tr>
-
+        <th><img src="<%=srcLink%>" height="60px" width="auto"></th>
         <th><%=Integer.toString(s.getId())%></th>
         <th><%=(s.getName())%></th>
         <th><%=Integer.toString(s.getCat_id1())%></th>
