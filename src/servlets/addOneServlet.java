@@ -17,7 +17,7 @@ public class addOneServlet extends HttpServlet {
         if(req.getParameter("cat_name")=="null"||req.getParameter("cat_name")==""){
         DataBaseWorker.addOne(req.getParameter("food_name"),req.getParameter("price"));}
         else DataBaseWorker.addOne(req.getParameter("food_name"),req.getParameter("cat_name"), req.getParameter("price"));
-       // getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
+       getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
     }
 
 

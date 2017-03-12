@@ -47,7 +47,7 @@
 <body>
 <a class="reff" href="index.jsp"><img src="img/refresh-icon-113581.png" width="40px" height="40px"></a>
 <div class="top-name"><h3>Table:</h3></div>
-<% int counter=0; %>
+<% int counter=1; %>
 <script>
     function showAllJS() {
         var counter = 1
@@ -66,7 +66,7 @@
 <form name="form1" method="POST">
     <INPUT TYPE="BUTTON" VALUE="showAll" ONCLICK="showAllJS()">
     <INPUT TYPE="BUTTON" VALUE="closeAll" ONCLICK="closeAllJS()">
-    <INPUT TYPE="hidden" name="hidden" VALUE="0">
+    <INPUT TYPE="hidden" name="hidden" VALUE="1">
 
     <% if(request.getParameter("hidden") != null) {
         counter = Integer.parseInt(request.getParameter("hidden"));
@@ -88,6 +88,8 @@
             <th>|||||</th>
             <th>Cat_ID</th>
             <th>Name</th>
+            <th><img src="img/update.png" width="25px" height="25px"></th>
+            <th><img src="img/delete.png" width="25px" height="25px"></th>
         </tr>
         <%
 
@@ -105,6 +107,8 @@
         <th>|||||</th>
         <th><%=Integer.toString(s.getCat_id2())%></th>
         <th><%=(s.getCat_name())%></th>
+        <th><input type="image" src="img/update.png" width="25px" height="25px" name=""></th>
+        <th><form action="/delClick?<%=(s.getName())%>" method="POST"><input type="image" src="img/delete.png" width="25px" height="25px" ></form></th>
 
     </tr>
 

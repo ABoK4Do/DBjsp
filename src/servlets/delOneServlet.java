@@ -17,7 +17,7 @@ public class delOneServlet extends HttpServlet{
         if(req.getParameter("del_name")!=null) {
             DataBaseWorker.delOne(req.getParameter("del_name"));
         }
-       // getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
+        getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 
 
 

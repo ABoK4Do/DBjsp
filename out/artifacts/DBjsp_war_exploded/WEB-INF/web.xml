@@ -19,4 +19,13 @@
         <servlet-name>delOneServlet</servlet-name>
         <url-pattern>/delOneServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>delClick</servlet-name>
+        <servlet-class>servlets.delClick</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delClick</servlet-name>
+        <url-pattern>/delClick</url-pattern>
+    </servlet-mapping>
 </web-app>
