@@ -18,7 +18,7 @@ public class delClick extends HttpServlet{
         if(name1!=null) {
             DataBaseWorker.delOne(name1);
         }
-         getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
+         getServletContext().getRequestDispatcher("/index.jsp#add_plus").forward(req, resp);
 
 
 
