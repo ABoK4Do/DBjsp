@@ -9,6 +9,7 @@
 <%@ page import="classes.DataBaseWorker" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="classes.ResultPOJO" %>
+
 <html>
 <head>
     <title>Restaurant</title>
@@ -46,9 +47,39 @@
 <body>
 <a class="reff" href="index.jsp"><img src="img/refresh-icon-113581.png" width="40px" height="40px"></a>
 <div class="top-name"><h3>Table:</h3></div>
+<% int counter=0; %>
+<script>
+    function showAllJS() {
+        var counter = 1
+        document.form1.hidden.value = counter
+        form1.submit()
+
+    }
+    function closeAllJS() {
+        var counter = 0
+        document.form1.hidden.value = counter
+        form1.submit()
+
+    }
+
+</script>
+<form name="form1" method="POST">
+    <INPUT TYPE="BUTTON" VALUE="showAll" ONCLICK="showAllJS()">
+    <INPUT TYPE="BUTTON" VALUE="closeAll" ONCLICK="closeAllJS()">
+    <INPUT TYPE="hidden" name="hidden" VALUE="0">
+
+    <% if(request.getParameter("hidden") != null) {
+        counter = Integer.parseInt(request.getParameter("hidden"));
+    }
+    if(counter ==1){
+    %>
+
 
 <table class="showAll">
+
+
         <tr>
+            <th></th>
             <th>Photo</th>
             <th>ID</th>
             <th>Name</th>
@@ -59,11 +90,13 @@
             <th>Name</th>
         </tr>
         <%
+
         ArrayList<ResultPOJO> listTable = DataBaseWorker.showDB();
         for (ResultPOJO s : listTable){
-            String srcLink = "img/"+Integer.toString(s.getId())+".jpg";
+            String srcLink = "img/food/"+Integer.toString(s.getId())+".jpg";
         %>
     <tr>
+        <th><input type="checkbox" name="update" value=""></th>
         <th><img src="<%=srcLink%>" height="60px" width="auto"></th>
         <th><%=Integer.toString(s.getId())%></th>
         <th><%=(s.getName())%></th>
@@ -76,10 +109,12 @@
     </tr>
 
 
-        <%}%>
+        <%}}%>
     </table>
+
+</form>
 <div class="Form" >
-    <form action="/addOneServlet" method="POST">
+    <form name="form2" action="/addOneServlet" method="POST">
         <div align="center">Добавить элемент в таблицу</div>
 
         <table border="1px">
@@ -89,7 +124,7 @@
             <tr><td></td><td><input name="but" type="submit" value="Добавить"></td></tr>
         </table>
     </form>
-    <form action="/delOneServlet" method="post">
+    <form name="form3" action="/delOneServlet" method="post">
         Удалить:
         <table>
             <tr>
@@ -99,5 +134,6 @@
         </table>
     </form>
 </div>
+
   </body>
 </html>

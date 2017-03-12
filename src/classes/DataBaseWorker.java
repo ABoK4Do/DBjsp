@@ -65,6 +65,7 @@ public class DataBaseWorker {
 
 
         } catch (SQLException e) {
+            log.error("Error while adding");
             e.printStackTrace();
         }
         log.info("add one elem");
