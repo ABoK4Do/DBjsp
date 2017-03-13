@@ -22,9 +22,12 @@
         .showAll {
             border: black 1px solid;
             background-color: greenyellow;
+            overflow: auto;
+            height: 80%;
         }
         th{
                 border: black 2px solid;
+
 
             }
         body {
@@ -44,10 +47,21 @@
         }
         .Form1{
             width: 80%;
+            height: 90%;
+h
+
         }
         table{
             width: 100%;
         }
+        .showAlldiv {
+            height: 80%;
+            overflow: scroll;
+        }
+        tr {
+            max-height: 20px;
+        }
+
 
     </style>
 </head>
@@ -97,11 +111,12 @@
     }
     if(counter !=0){
     %>
+    <div class="showAlldiv">
 <table class="showAll">
 
 
         <tr>
-            <th></th>
+            <th width="10px"><input type="checkbox" name="update" value=""></th>
             <th>Photo</th>
 
             <th>Name</th>
@@ -148,7 +163,8 @@
     <%
 
         }%>
-    </table
+    </table>
+    </div>
     <br>
     <INPUT TYPE="image" src="img/add.png" id="add_plus" VALUE="PLUS" ONCLICK="addJS()">
 </form>
