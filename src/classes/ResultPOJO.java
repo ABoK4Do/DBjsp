@@ -7,10 +7,9 @@ public class ResultPOJO {
     //Часть таблицы меню
     private int id;
     private String name;
-    private int cat_id1;
+    private int cat_id;
     private float price;
     //Часть таблицы про категории
-    private int cat_id2;
     private String cat_name;
 
     public ResultPOJO(){
@@ -25,17 +24,15 @@ public class ResultPOJO {
         this.name = name;
     }
 
-    public void setCat_id1(int cat_id1) {
-        this.cat_id1 = cat_id1;
+    public void setCat_id(int cat_id) {
+        this.cat_id = cat_id;
     }
 
     public void setPrice(float price) {
         this.price = price;
     }
 
-    public void setCat_id2(int cat_id2) {
-        this.cat_id2 = cat_id2;
-    }
+
 
     public void setCat_name(String cat_name) {
         this.cat_name = cat_name;
@@ -49,17 +46,15 @@ public class ResultPOJO {
         return name;
     }
 
-    public int getCat_id1() {
-        return cat_id1;
+    public int getCat_id() {
+        return cat_id;
     }
 
     public float getPrice() {
         return price;
     }
 
-    public int getCat_id2() {
-        return cat_id2;
-    }
+
 
     public String getCat_name() {
         return cat_name;

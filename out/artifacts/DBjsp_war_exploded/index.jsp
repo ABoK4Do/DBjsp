@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="classes.DataBaseWorker" %>
+
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="classes.ResultPOJO" %>
 
@@ -68,53 +68,52 @@ h
 <body>
 
 <div class="top-name"><h3>Table:<a class="reff" href="index.jsp"><img src="img/refresh-icon-113581.png" width="40px" height="40px"></a></h3></div>
-<% int counter=1; %>
+<%  String counter = null; %>
+
 <script>
-    function showAllJS() {
-        var counter = 1
-        document.form1.hidden.value = counter
+    function closeJS() {
+
         form1.submit()
 
     }
-    function closeAllJS() {
-        var counter = 0
-        document.form1.hidden.value = counter
-        form1.submit()
 
-    }
-    function findJS() {
-        var counter = 3
-        document.form1.hidden.value = counter
-        form1.submit()
-    }
-    function addJS() {
-        var counter = 2
-        document.form1.hidden.value = counter
-
-        form1.submit()
-        window.onload=document.getElementById('add_plus').scrollIntoView(true)
-
-    }
 
 
 </script>
-<form name="form1" class="Form1" method="POST">
-    <INPUT TYPE="BUTTON" VALUE="showAll" ONCLICK="showAllJS()">
-    <INPUT TYPE="BUTTON" VALUE="closeAll" ONCLICK="closeAllJS()">
-    <INPUT TYPE="hidden" name="hidden" VALUE="1">
+
+
+
+
+<% if(request.getParameter("hidden") != null) {
+    counter = request.getParameter("hidden");
+} %>
+
+
+    <form name="form1" class="Form1" method="POST" action="/wayServlet" >
+        <INPUT TYPE="submit" name="chooser" VALUE="showAll">
+        <INPUT TYPE="BUTTON" name="closer" VALUE="closeAll" onclick="closeJS()">
+        <INPUT TYPE="hidden" name="resultArray" VALUE="1">
+
 
     <br>
-    <input type="text" name="finder"><INPUT TYPE="BUTTON" VALUE="find" ONCLICK="findJS()">
+    <input type="text" name="finder"><select name="searchCat">
+        <option value="1">
+        Название блюда
+        </option>
+    <option value="2">
+        Категория
+    </option>
+</select>
+    <INPUT TYPE="submit" name="chooser" VALUE="search">
     <br>
-    <% if(request.getParameter("hidden") != null) {
-        counter = Integer.parseInt(request.getParameter("hidden"));
-    }
-    if(counter !=0){
-    %>
+
     <div class="showAlldiv">
 <table class="showAll">
 
+<%
 
+        if(request.getAttribute("resultArray") != null){
+%>
         <tr>
             <th width="10px"><input type="checkbox" name="update" value=""></th>
             <th>Photo</th>
@@ -127,9 +126,10 @@ h
             <th><img src="img/delete.png" width="25px" height="25px"></th>
         </tr>
         <%
-            }
-        if((counter==1)||(counter==2)){
-        ArrayList<ResultPOJO> listTable = DataBaseWorker.showDB();
+
+
+
+        ArrayList<ResultPOJO> listTable = (ArrayList<ResultPOJO>) request.getAttribute("resultArray");
         for (ResultPOJO s : listTable){
             String srcLink = "img/food/"+Integer.toString(s.getId())+".jpg";
         %>
@@ -146,27 +146,11 @@ h
 
 
         <%}}
-            if(counter==2){
-                %>
-    <tr>
-        <form action="/addOneServlet" method="POST">
-        <th></th>
-        <th></th>
-        <th><input type="text" name="food_name"></th>
-        <th><input type="text" name="cat_name"></th>
-            <th><input type="text" name="price"></th>
-        <th><input type="image" src="img/yes.png" width="25px" height="25px" name="yes"></th>
-            </form>
-        <th><input type="image" src="img/delete.png" width="25px" height="25px" name="no" ONCLICK="showAllJS()" > </th>
-
-    </tr>
-    <%
-
-        }%>
+        %>
     </table>
     </div>
     <br>
-    <INPUT TYPE="image" src="img/add.png" id="add_plus" VALUE="PLUS" ONCLICK="addJS()">
+    <INPUT TYPE="image" src="img/add.png" id="add_plus" VALUE="PLUS">
 </form>
 
 
