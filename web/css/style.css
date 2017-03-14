@@ -1,0 +1,49 @@
+
+.reff{
+
+    left: 80px;
+    top: 15px;
+}
+.showAll {
+    border: black 1px solid;
+    background-color: greenyellow;
+    overflow: auto;
+    height: 80%;
+}
+th{
+    border: black 2px solid;
+
+
+}
+body {
+    background-color: #fdffd5;
+    padding-left: 15%;
+}
+.top-name {
+    margin-top:5px;
+}
+.Form {
+    position: fixed;
+    top: 65px;
+    right: 150px;
+    height: 200px;
+    background-color: red;
+    padding:10px;
+}
+.Form1{
+    width: 80%;
+    height: 90%;
+
+}
+table{
+    width: 100%;
+}
+.showAlldiv {
+    height: 80%;
+    overflow: scroll;
+}
+tr {
+    max-height: 20px;
+}
+
+

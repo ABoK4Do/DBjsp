@@ -13,74 +13,17 @@
 <html>
 <head>
     <title>Restaurant</title>
-    <style>
-        .reff{
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
 
-            left: 80px;
-            top: 15px;
-        }
-        .showAll {
-            border: black 1px solid;
-            background-color: greenyellow;
-            overflow: auto;
-            height: 80%;
-        }
-        th{
-                border: black 2px solid;
-
-
-            }
-        body {
-            background-color: #fdffd5;
-            padding-left: 15%;
-        }
-        .top-name {
-            margin-top:5px;
-        }
-        .Form {
-            position: fixed;
-            top: 65px;
-            right: 150px;
-            height: 200px;
-            background-color: red;
-            padding:10px;
-        }
-        .Form1{
-            width: 80%;
-            height: 90%;
-h
-
-        }
-        table{
-            width: 100%;
-        }
-        .showAlldiv {
-            height: 80%;
-            overflow: scroll;
-        }
-        tr {
-            max-height: 20px;
-        }
-
-
-    </style>
 </head>
 <body>
 
 <div class="top-name"><h3>Table:<a class="reff" href="index.jsp"><img src="img/refresh-icon-113581.png" width="40px" height="40px"></a></h3></div>
 <%  String counter = null; %>
 
-<script>
-    function closeJS() {
 
-        form1.submit()
-
-    }
-
-
-
-</script>
-
+<input type="button" name="hi" value="click" onclick="colorChange()">
 
 
 
@@ -91,7 +34,7 @@ h
 
     <form name="form1" class="Form1" method="POST" action="/wayServlet" >
         <INPUT TYPE="submit" name="chooser" VALUE="showAll">
-        <INPUT TYPE="BUTTON" name="closer" VALUE="closeAll" onclick="closeJS()">
+
         <INPUT TYPE="hidden" name="resultArray" VALUE="1">
 
 
