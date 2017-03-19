@@ -55,4 +55,14 @@
         <servlet-name>wayServlet</servlet-name>
         <url-pattern>/wayServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>updateSomeServlet</servlet-name>
+        <servlet-class>servlets.updateSomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateSomeServlet</servlet-name>
+        <url-pattern>/updateSomeServlet</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>

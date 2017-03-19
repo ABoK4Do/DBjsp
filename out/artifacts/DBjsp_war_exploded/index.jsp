@@ -26,7 +26,7 @@
 <input type="button" name="hi" value="click" onclick="colorChange()">
 
 
-
+<input type="hidden" name="typeTable" value="">
 
 
 
@@ -61,7 +61,7 @@
         if(request.getAttribute("resultArray") != null){
 %>
         <tr id="headRow">
-            <th width="10px"><input type="checkbox" name="updateBox" value="" onclick="selectAll(this)"></th>
+            <th width="10px"><input type="checkbox" name="updateBoxMain" value="" onclick="selectAll(this)"></th>
             <th>Photo</th>
 
             <th>Name</th>
@@ -76,8 +76,13 @@
 
 
         ArrayList<ResultPOJO> listTable = (ArrayList<ResultPOJO>) request.getAttribute("resultArray");
-        for (ResultPOJO s : listTable){
-            String srcLink = "img/food/"+Integer.toString(s.getId())+".jpg";
+
+
+            if(request.getAttribute("typeTable").equals("row")){
+                for (ResultPOJO s : listTable){
+                    String srcLink = "img/food/"+Integer.toString(s.getId())+".jpg";
+
+
         %>
     <tr id="bodyRow">
         <th width="10px"><input type="checkbox" name="updateBox" value="<%=s.getId()%>" onclick="checkBoxThis()"></th>
@@ -87,14 +92,29 @@
         <th><%=Float.toString(s.getPrice())%></th>
         <th><input type="image" src="img/update.png" width="25px" height="25px" name=""></th>
         <th><button type='button' onclick='deleteElem(this)'><img src='img/delete.png' width='25px' height='25px'></button></th>
-        <input type="hidden" name="idRow" value="<%=s.getId()%>">
+
     </tr>
-    <div id="add_tr"></div>
+
 
 
         <%}}
+            if(request.getAttribute("typeTable").equals("text")){
+        %><script>showButtons(1);</script><%
+                for (ResultPOJO s : listTable){
+
         %>
-    </table>
+    <tr id="bodyRow">
+        <th width="10px"><input type="checkbox" name="updateBox" value="<%=s.getId()%>" checked></th>
+        <th></th>
+        <th><input type="text" name="addName" value="<%=(s.getName())%>"></th>
+        <th><input type="text" name="addCat" value="<%=(s.getCat_name())%>"></th>
+        <th><input type="text" name="addPrice" value="<%=Float.toString(s.getPrice())%>"></th>
+        <th><input type="image" src="img/update.png" width="25px" height="25px" name=""></th>
+        <th><button type='button' onclick='deleteElem(this)'><img src='img/delete.png' width='25px' height='25px'></button></th>
+
+    </tr>
+    <%}}}%>
+      </table>
     </div>
     <br>
 

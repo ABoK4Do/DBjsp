@@ -23,6 +23,10 @@ public class DataBaseWorker {
             "From APP.FOODS t1 LEFT JOIN APP.CATEGORY t2 " +
             "ON t1.CATEGORY_ID = t2.ID " +
             "Where t2.name LIKE ";
+    private static final String searchByIdsStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
+            "From APP.FOODS t1 LEFT JOIN APP.CATEGORY t2 " +
+            "ON t1.CATEGORY_ID = t2.ID " +
+            "Where t1.ID in ";
 
     private static Connection conn = null;
     private static Statement stmt = null;
@@ -124,6 +128,33 @@ public class DataBaseWorker {
         log.info("add one elem");
     }
 
+    //Обновить сущность таблицы 1
+    public static void updateOne(String id, String name, String catName, String price){
+        //Проверяю подключение к базе данных
+        if(conn == null) { createConnection();}
+        try {
+            stmt = conn.createStatement();
+            int catID = 0;
+
+
+
+            //Нахожу максимальный айди и потом к нему +1
+            ResultSet results = stmt.executeQuery("SELECT ID From APP.CATEGORY WHERE NAME='" + catName + "'");
+            if(results.next()){
+                catID = results.getInt(1);}
+
+            //Обновляю строку
+
+            stmt.executeUpdate("UPDATE APP.FOODS SET NAME='"+name+"',CATEGORY_ID="+catID+",PRICE='"+price+"' WHERE ID="+id);
+            stmt.close();
+        } catch (SQLException e) {
+            log.error("Error while updating");
+            e.printStackTrace();
+        }
+        log.info("Updated");
+
+    }
+
 
     //Удалить сущность по id блюда
     public static void delOne(int id){
@@ -166,6 +197,7 @@ public class DataBaseWorker {
     //Найти по имени категории
     public static ArrayList<ResultPOJO> searchByCat(String name){
         //Проверяю подключение к базе данных
+
         if(conn == null) { createConnection();}
         ArrayList<ResultPOJO> listTable = null;
         ResultSet results=null;
@@ -180,6 +212,28 @@ public class DataBaseWorker {
             e.printStackTrace();
         }
         log.info("found");
+        return listTable;
+
+    }
+
+
+    //Найти по id имени
+    public static ArrayList<ResultPOJO> searchByIds(String str){
+        //Проверяю подключение к базе данных
+        if(conn == null) { createConnection();}
+        ArrayList<ResultPOJO> listTable = null;
+        ResultSet results=null;
+        try {
+            //Удаляю строку
+            stmt = conn.createStatement();
+            results = stmt.executeQuery(searchByIdsStatement+str);
+            listTable = fromRStoAL(results);
+            stmt.close();
+        } catch (SQLException e) {
+            log.error("Error while finding by ids");
+            e.printStackTrace();
+        }
+        log.info("found some ids");
         return listTable;
 
     }

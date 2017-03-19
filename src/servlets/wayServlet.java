@@ -36,6 +36,10 @@ public class wayServlet extends HttpServlet {
 
             getServletContext().getRequestDispatcher("/addSomeServlet").forward(req, resp);
         }
+        if (req.getParameter("chooser").equals("UPDATE")) {
+
+            getServletContext().getRequestDispatcher("/updateSomeServlet").forward(req, resp);
+        }
 
     }
 }

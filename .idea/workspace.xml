@@ -27,8 +27,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="87" column="42" lean-forward="true" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+            <state relative-caret-position="162">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,9 +37,72 @@
       <file leaf-file-name="wayServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlets/wayServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+            <state relative-caret-position="417">
+              <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateSomeServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/servlets/updateSomeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showAllServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlets/showAllServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseWorker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="147" column="35" lean-forward="false" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
+              <folding>
+                <marker date="1489964446000" expanded="true" signature="372:635" ph="Select t1.*,... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="695:921" ph="Select t1.id... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="981:1171" ph="Select t1.id... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="981:1207" ph="Select t1.id... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="1267:1487" ph="Select t1.id... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="1267:1489" ph="Select t1.id... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="3778:3807" ph="SELECT MAX(I... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="4094:4157" ph="SELECT ID Fr... CATEGORY" />
+                <marker date="1489964446000" expanded="true" signature="4366:4498" ph="INSERT INTO APP.FOODS... " />
+                <marker date="1489964446000" expanded="true" signature="4651:4759" ph="INSERT INTO APP.FOODS... " />
+                <marker date="1489964446000" expanded="true" signature="5384:5423" ph="SELECT ID Fr... CATEGORY" />
+                <marker date="1489964446000" expanded="true" signature="5384:5424" ph="SELECT ID Fr... CATEGORY" />
+                <marker date="1489964446000" expanded="true" signature="5384:5440" ph="SELECT ID Fr... CATEGORY" />
+                <marker date="1489964446000" expanded="true" signature="5584:5611" ph="UPDATE APP.F... " />
+                <marker date="1489964446000" expanded="true" signature="5584:5633" ph="UPDATE APP.F... " />
+                <marker date="1489964446000" expanded="true" signature="5584:5650" ph="UPDATE APP.F... " />
+                <marker date="1489964446000" expanded="true" signature="5584:5670" ph="UPDATE APP.F... " />
+                <marker date="1489964446000" expanded="true" signature="6150:6181" ph="DELETE FROM " />
+                <marker date="1489964446000" expanded="true" signature="6150:6187" ph="DELETE FROM " />
+                <marker date="1489964446000" expanded="true" signature="6795:6805" ph="Select t1.id... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="6795:6809" ph="Select t1.id... FOODS" />
+                <marker date="1489964446000" expanded="true" signature="7494:7508" ph="Select t1.id... FOODS" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,18 +110,18 @@
       <file leaf-file-name="delSomeServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlets/delSomeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="27" column="87" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="27" selection-end-column="87" />
+            <state relative-caret-position="135">
+              <caret line="15" column="114" lean-forward="true" selection-start-line="15" selection-start-column="114" selection-end-line="15" selection-end-column="114" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="85" column="98" lean-forward="true" selection-start-line="85" selection-start-column="98" selection-end-line="85" selection-end-column="98" />
+            <state relative-caret-position="562">
+              <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc;n#colorChange#0" expanded="false" />
               </folding>
@@ -69,33 +132,19 @@
       <file leaf-file-name="addSomeServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlets/addSomeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="25" column="82" lean-forward="true" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+            <state relative-caret-position="300">
+              <caret line="26" column="100" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="26" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBaseWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-              <folding>
-                <marker date="1489936181000" expanded="true" signature="372:635" ph="Select t1.*,... FOODS" />
-                <marker date="1489936181000" expanded="true" signature="695:921" ph="Select t1.id... FOODS" />
-                <marker date="1489936181000" expanded="true" signature="981:1171" ph="Select t1.id... FOODS" />
-                <marker date="1489936181000" expanded="true" signature="981:1207" ph="Select t1.id... FOODS" />
-                <marker date="1489936181000" expanded="true" signature="3496:3525" ph="SELECT MAX(I... FOODS" />
-                <marker date="1489936181000" expanded="true" signature="3812:3875" ph="SELECT ID Fr... CATEGORY" />
-                <marker date="1489936181000" expanded="true" signature="4084:4216" ph="INSERT INTO APP.FOODS... " />
-                <marker date="1489936181000" expanded="true" signature="4369:4477" ph="INSERT INTO APP.FOODS... " />
-                <marker date="1489936181000" expanded="true" signature="4977:5008" ph="DELETE FROM " />
-                <marker date="1489936181000" expanded="true" signature="4977:5014" ph="DELETE FROM " />
-                <marker date="1489936181000" expanded="true" signature="5622:5632" ph="Select t1.id... FOODS" />
-                <marker date="1489936181000" expanded="true" signature="5622:5636" ph="Select t1.id... FOODS" />
-                <marker date="1489936181000" expanded="true" signature="6320:6334" ph="Select t1.id... FOODS" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,22 +180,23 @@
         <option value="$PROJECT_DIR$/src/log4j.properties" />
         <option value="$PROJECT_DIR$/src/loger.log" />
         <option value="$PROJECT_DIR$/src/classes/ResultPOJO.java" />
-        <option value="$PROJECT_DIR$/src/classes/test.java" />
         <option value="$PROJECT_DIR$/out/production/DBjsp/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/servlets/showAllServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/searchServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/style.css" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/src/servlets/addOneServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/delOneServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/servlets/delSomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
         <option value="$PROJECT_DIR$/src/servlets/delClick.java" />
-        <option value="$PROJECT_DIR$/src/servlets/wayServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/servlets/addSomeServlet.java" />
         <option value="$PROJECT_DIR$/web/js/script.js" />
+        <option value="$PROJECT_DIR$/src/classes/test.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/servlets/wayServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlets/showAllServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlets/addSomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/servlets/updateSomeServlet.java" />
       </list>
     </option>
   </component>
@@ -182,6 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -390,9 +441,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -963,12 +1013,13 @@
       <workItem from="1489669737579" duration="3001000" />
       <workItem from="1489789509218" duration="2597000" />
       <workItem from="1489828983916" duration="7730000" />
-      <workItem from="1489930937349" duration="4208000" />
+      <workItem from="1489930937349" duration="4571000" />
+      <workItem from="1489959841126" duration="5730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57297000" />
+    <option name="totallyTimeSpent" value="63390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1002,11 +1053,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27825466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1014,7 +1066,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1042,20 +1093,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/conf/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/delOneServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/delOneServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/classes/ResultPOJO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1080,19 +1118,28 @@
         <state relative-caret-position="1065">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
-            <marker date="1489936181000" expanded="true" signature="372:635" ph="Select t1.*,... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="695:921" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="981:1171" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="981:1207" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="3496:3525" ph="SELECT MAX(I... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="3812:3875" ph="SELECT ID Fr... CATEGORY" />
-            <marker date="1489936181000" expanded="true" signature="4084:4216" ph="INSERT INTO APP.FOODS... " />
-            <marker date="1489936181000" expanded="true" signature="4369:4477" ph="INSERT INTO APP.FOODS... " />
-            <marker date="1489936181000" expanded="true" signature="4977:5008" ph="DELETE FROM " />
-            <marker date="1489936181000" expanded="true" signature="4977:5014" ph="DELETE FROM " />
-            <marker date="1489936181000" expanded="true" signature="5622:5632" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="5622:5636" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="6320:6334" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="372:635" ph="Select t1.*,... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="695:921" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="981:1171" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="981:1207" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="1267:1487" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="1267:1489" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="3778:3807" ph="SELECT MAX(I... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="4094:4157" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="4366:4498" ph="INSERT INTO APP.FOODS... " />
+            <marker date="1489964446000" expanded="true" signature="4651:4759" ph="INSERT INTO APP.FOODS... " />
+            <marker date="1489964446000" expanded="true" signature="5384:5423" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5384:5424" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5384:5440" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5584:5611" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5633" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5650" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5670" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="6150:6181" ph="DELETE FROM " />
+            <marker date="1489964446000" expanded="true" signature="6150:6187" ph="DELETE FROM " />
+            <marker date="1489964446000" expanded="true" signature="6795:6805" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="6795:6809" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="7494:7508" ph="Select t1.id... FOODS" />
           </folding>
         </state>
       </provider>
@@ -1147,13 +1194,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/delOneServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/delOneServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/classes/ResultPOJO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1178,19 +1219,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489936181000" expanded="true" signature="372:635" ph="Select t1.*,... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="695:921" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="981:1171" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="981:1207" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="3496:3525" ph="SELECT MAX(I... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="3812:3875" ph="SELECT ID Fr... CATEGORY" />
-            <marker date="1489936181000" expanded="true" signature="4084:4216" ph="INSERT INTO APP.FOODS... " />
-            <marker date="1489936181000" expanded="true" signature="4369:4477" ph="INSERT INTO APP.FOODS... " />
-            <marker date="1489936181000" expanded="true" signature="4977:5008" ph="DELETE FROM " />
-            <marker date="1489936181000" expanded="true" signature="4977:5014" ph="DELETE FROM " />
-            <marker date="1489936181000" expanded="true" signature="5622:5632" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="5622:5636" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="6320:6334" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="372:635" ph="Select t1.*,... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="695:921" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="981:1171" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="981:1207" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="1267:1487" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="1267:1489" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="3778:3807" ph="SELECT MAX(I... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="4094:4157" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="4366:4498" ph="INSERT INTO APP.FOODS... " />
+            <marker date="1489964446000" expanded="true" signature="4651:4759" ph="INSERT INTO APP.FOODS... " />
+            <marker date="1489964446000" expanded="true" signature="5384:5423" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5384:5424" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5384:5440" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5584:5611" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5633" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5650" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5670" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="6150:6181" ph="DELETE FROM " />
+            <marker date="1489964446000" expanded="true" signature="6150:6187" ph="DELETE FROM " />
+            <marker date="1489964446000" expanded="true" signature="6795:6805" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="6795:6809" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="7494:7508" ph="Select t1.id... FOODS" />
           </folding>
         </state>
       </provider>
@@ -1248,13 +1298,7 @@
     <entry file="file://$PROJECT_DIR$/src/servlets/delOneServlet.class" />
     <entry file="file://$PROJECT_DIR$/src/servlets/delClick.class" />
     <entry file="file://$PROJECT_DIR$/src/servlets/delClick.class" />
-    <entry file="file://$PROJECT_DIR$/src/classes/delOneServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="66" lean-forward="false" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/delOneServlet.class" />
     <entry file="file://$PROJECT_DIR$/src/loger.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1273,16 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/DBjsp/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1295,19 +1329,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/delOneServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/delOneServlet.java" />
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,14 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="24" column="91" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="24" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/showAllServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1335,75 +1353,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/wayServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="87" column="42" lean-forward="true" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="562">
+          <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc;n#colorChange#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/delSomeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="87" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="27" selection-end-column="87" />
+        <state relative-caret-position="135">
+          <caret line="15" column="114" lean-forward="true" selection-start-line="15" selection-start-column="114" selection-end-line="15" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/addSomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="100" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="26" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="147" column="35" lean-forward="false" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
           <folding>
-            <marker date="1489936181000" expanded="true" signature="372:635" ph="Select t1.*,... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="695:921" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="981:1171" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="981:1207" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="3496:3525" ph="SELECT MAX(I... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="3812:3875" ph="SELECT ID Fr... CATEGORY" />
-            <marker date="1489936181000" expanded="true" signature="4084:4216" ph="INSERT INTO APP.FOODS... " />
-            <marker date="1489936181000" expanded="true" signature="4369:4477" ph="INSERT INTO APP.FOODS... " />
-            <marker date="1489936181000" expanded="true" signature="4977:5008" ph="DELETE FROM " />
-            <marker date="1489936181000" expanded="true" signature="4977:5014" ph="DELETE FROM " />
-            <marker date="1489936181000" expanded="true" signature="5622:5632" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="5622:5636" ph="Select t1.id... FOODS" />
-            <marker date="1489936181000" expanded="true" signature="6320:6334" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="372:635" ph="Select t1.*,... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="695:921" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="981:1171" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="981:1207" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="1267:1487" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="1267:1489" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="3778:3807" ph="SELECT MAX(I... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="4094:4157" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="4366:4498" ph="INSERT INTO APP.FOODS... " />
+            <marker date="1489964446000" expanded="true" signature="4651:4759" ph="INSERT INTO APP.FOODS... " />
+            <marker date="1489964446000" expanded="true" signature="5384:5423" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5384:5424" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5384:5440" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1489964446000" expanded="true" signature="5584:5611" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5633" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5650" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="5584:5670" ph="UPDATE APP.F... " />
+            <marker date="1489964446000" expanded="true" signature="6150:6181" ph="DELETE FROM " />
+            <marker date="1489964446000" expanded="true" signature="6150:6187" ph="DELETE FROM " />
+            <marker date="1489964446000" expanded="true" signature="6795:6805" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="6795:6809" ph="Select t1.id... FOODS" />
+            <marker date="1489964446000" expanded="true" signature="7494:7508" ph="Select t1.id... FOODS" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/addSomeServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/servlets/wayServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="25" column="82" lean-forward="true" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+        <state relative-caret-position="417">
+          <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/script.js">
+    <entry file="file://$PROJECT_DIR$/src/servlets/showAllServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="85" column="98" lean-forward="true" selection-start-line="85" selection-start-column="98" selection-end-line="85" selection-end-column="98" />
-          <folding>
-            <element signature="n#!!doc;n#colorChange#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/updateSomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
