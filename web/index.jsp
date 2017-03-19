@@ -27,15 +27,18 @@
 
 
 
-<% if(request.getParameter("hidden") != null) {
-    counter = request.getParameter("hidden");
-} %>
 
 
-    <form name="form1" class="Form1" method="POST" action="/wayServlet" >
-        <INPUT TYPE="submit" name="chooser" VALUE="showAll">
 
-        <INPUT TYPE="hidden" name="resultArray" VALUE="1">
+
+<form name="form1" class="Form1" method="POST" action="/wayServlet" >
+    <INPUT TYPE="button" src="img/add.png" id="add_plus" VALUE="PLUS" onclick="addTr()">
+    <input TYPE="submit" name="chooser"  VALUE="showAll">
+    <input type="submit" name="chooser" value="closeAll">
+    <input TYPE="submit" id="saveSome" name="saveSome" VALUE="SAVE" style="visibility:hidden">
+    <input TYPE="submit" id="updateSome" name="updateSome" VALUE="UPDATE" style="visibility:hidden">
+    <input TYPE="submit" id="deleteSome" name="deleteSome" VALUE="DELETE" style="visibility:hidden">
+
 
 
     <br>
@@ -51,14 +54,14 @@
     <br>
 
     <div class="showAlldiv">
-<table class="showAll">
+<table class="showAll" id="mainTable">
 
 <%
 
         if(request.getAttribute("resultArray") != null){
 %>
-        <tr>
-            <th width="10px"><input type="checkbox" name="update" value=""></th>
+        <tr id="headRow">
+            <th width="10px"><input type="checkbox" name="updateBox" value="" onclick="selectAll(this)"></th>
             <th>Photo</th>
 
             <th>Name</th>
@@ -76,16 +79,17 @@
         for (ResultPOJO s : listTable){
             String srcLink = "img/food/"+Integer.toString(s.getId())+".jpg";
         %>
-    <tr>
-        <th width="10px"><input type="checkbox" name="update" value=""></th>
+    <tr id="bodyRow">
+        <th width="10px"><input type="checkbox" name="updateBox" value="<%=s.getId()%>" onclick="checkBoxThis()"></th>
         <th><img src="<%=srcLink%>" height="60px" width="auto"></th>
         <th><%=(s.getName())%></th>
         <th><%=(s.getCat_name())%></th>
         <th><%=Float.toString(s.getPrice())%></th>
         <th><input type="image" src="img/update.png" width="25px" height="25px" name=""></th>
-        <th><form action="/delClick?<%=(s.getName())%>" method="POST"><input type="image" src="img/delete.png" width="25px" height="25px" ></form></th>
-
+        <th><button type='button' onclick='deleteElem(this)'><img src='img/delete.png' width='25px' height='25px'></button></th>
+        <input type="hidden" name="idRow" value="<%=s.getId()%>">
     </tr>
+    <div id="add_tr"></div>
 
 
         <%}}
@@ -93,8 +97,10 @@
     </table>
     </div>
     <br>
-    <INPUT TYPE="image" src="img/add.png" id="add_plus" VALUE="PLUS">
+
+
 </form>
+
 
 
   </body>

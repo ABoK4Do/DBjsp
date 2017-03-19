@@ -1,7 +1,5 @@
 package servlets;
 
-import classes.DataBaseWorker;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,7 +14,7 @@ public class delClick extends HttpServlet{
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name1=req.getQueryString();
         if(name1!=null) {
-            DataBaseWorker.delOne(name1);
+         //   DataBaseWorker.delOne(name1);
         }
          getServletContext().getRequestDispatcher("/index.jsp#add_plus").forward(req, resp);
 

@@ -1,7 +1,5 @@
 package servlets;
 
-import classes.DataBaseWorker;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -15,7 +13,7 @@ public class delOneServlet extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         if(req.getParameter("del_name")!=null) {
-            DataBaseWorker.delOne(req.getParameter("del_name"));
+         //   DataBaseWorker.delOne(req.getParameter("del_name"));
         }
         getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 

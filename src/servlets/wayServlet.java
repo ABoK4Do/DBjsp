@@ -1,5 +1,7 @@
 package servlets;
 
+
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,10 +23,13 @@ public class wayServlet extends HttpServlet{
         if(req.getParameter("chooser").equals("search")){
             getServletContext().getRequestDispatcher("/searchServlet").forward(req, resp);
         }
+        if(req.getParameter("chooser").equals("closeAll")){
+            req.setAttribute("resultArray", null);
+            getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);}
+        }
 
-
-
-    }
 
 
 }
+
+

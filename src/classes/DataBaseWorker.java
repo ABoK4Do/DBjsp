@@ -125,14 +125,14 @@ public class DataBaseWorker {
     }
 
 
-    //Удалить сущность по имени блюда
-    public static void delOne(String name){
+    //Удалить сущность по id блюда
+    public static void delOne(int id){
         //Проверяю подключение к базе данных
         if(conn == null) { createConnection();}
         try {
             //Удаляю строку
             stmt = conn.createStatement();
-            stmt.executeUpdate("DELETE FROM APP.FOODS WHERE NAME='"+name+"'");
+            stmt.executeUpdate("DELETE FROM APP.FOODS WHERE ID='"+id+"'");
             stmt.close();
         } catch (SQLException e) {
             log.error("Error while deleting");
