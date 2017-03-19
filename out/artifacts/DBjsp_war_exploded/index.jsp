@@ -35,9 +35,9 @@
     <INPUT TYPE="button" src="img/add.png" id="add_plus" VALUE="PLUS" onclick="addTr()">
     <input TYPE="submit" name="chooser"  VALUE="showAll">
     <input type="submit" name="chooser" value="closeAll">
-    <input TYPE="submit" id="saveSome" name="saveSome" VALUE="SAVE" style="visibility:hidden">
-    <input TYPE="submit" id="updateSome" name="updateSome" VALUE="UPDATE" style="visibility:hidden">
-    <input TYPE="submit" id="deleteSome" name="deleteSome" VALUE="DELETE" style="visibility:hidden">
+    <input TYPE="submit" id="saveSome" name="chooser" VALUE="SAVE" style="visibility:hidden">
+    <input TYPE="submit" id="updateSome" name="chooser" VALUE="UPDATE" style="visibility:hidden">
+    <input TYPE="submit" id="deleteSome" name="chooser" VALUE="DELETE" style="visibility:hidden">
 
 
 
@@ -80,7 +80,7 @@
             String srcLink = "img/food/"+Integer.toString(s.getId())+".jpg";
         %>
     <tr id="bodyRow">
-        <th width="10px"><input type="checkbox" name="updateBox" value="" onclick="checkBoxThis()"></th>
+        <th width="10px"><input type="checkbox" name="updateBox" value="<%=s.getId()%>" onclick="checkBoxThis()"></th>
         <th><img src="<%=srcLink%>" height="60px" width="auto"></th>
         <th><%=(s.getName())%></th>
         <th><%=(s.getCat_name())%></th>

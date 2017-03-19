@@ -132,7 +132,7 @@ public class DataBaseWorker {
         try {
             //Удаляю строку
             stmt = conn.createStatement();
-            stmt.executeUpdate("DELETE FROM APP.FOODS WHERE ID='"+id+"'");
+            stmt.executeUpdate("DELETE FROM APP.FOODS WHERE ID="+id+"");
             stmt.close();
         } catch (SQLException e) {
             log.error("Error while deleting");

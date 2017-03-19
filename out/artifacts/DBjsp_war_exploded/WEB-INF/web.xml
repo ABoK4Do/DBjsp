@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <servlet>
-        <servlet-name>addOneServlet</servlet-name>
-        <servlet-class>servlets.addOneServlet</servlet-class>
+        <servlet-name>addSomeServlet</servlet-name>
+        <servlet-class>servlets.addSomeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>addOneServlet</servlet-name>
-        <url-pattern>/addOneServlet</url-pattern>
+        <servlet-name>addSomeServlet</servlet-name>
+        <url-pattern>/addSomeServlet</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>delOneServlet</servlet-name>
-        <servlet-class>servlets.delOneServlet</servlet-class>
+        <servlet-name>delSomeServlet</servlet-name>
+        <servlet-class>servlets.delSomeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>delOneServlet</servlet-name>
-        <url-pattern>/delOneServlet</url-pattern>
+        <servlet-name>delSomeServlet</servlet-name>
+        <url-pattern>/delSomeServlet</url-pattern>
     </servlet-mapping>
 
     <servlet>

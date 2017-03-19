@@ -42,8 +42,7 @@ function showButtons(xx) {
         document.getElementById("saveSome").style.visibility = "hidden"
     }
     if(xx=="2"){
-        document.getElementById("updateSome").style.visibility = "visible"
-        document.getElementById("deleteSome").style.visibility = "visible"
+
         document.getElementById("saveSome").style.visibility = "visible"
 
     }
@@ -69,22 +68,22 @@ function addTr() {
     div.appendChild(tr)
     var td1 = d.createElement("th")
     tr.appendChild(td1)
-    td1.innerHTML = "<input type='checkbox' name='updateBox' value='' onclick='checkBoxThis()'>"
+    td1.innerHTML = ""
     var td2 = d.createElement("th")
     tr.appendChild(td2)
     td2.innerHTML = "<img src='<%=srcLink%>' height='60px' width='auto'>"
     var td3 = d.createElement("th")
     tr.appendChild(td3)
-    td3.innerHTML = "<input type='text' name='addName'>"
+    td3.innerHTML = "<input type='text' name='addName' value=''>"
     var td4 = d.createElement("th")
     tr.appendChild(td4)
-    td4.innerHTML = "<input type='text' name='addCat'>"
+    td4.innerHTML = "<input type='text' name='addCat' value=''>"
     var td5 = d.createElement("th")
     tr.appendChild(td5)
-    td5.innerHTML = "<input type='text' name='addPrice'>"
+    td5.innerHTML = "<input type='text' name='addPrice' value=''>"
     var td6 = d.createElement("th")
     tr.appendChild(td6)
-    td6.innerHTML = "<input type='image' src='img/yes.png' width='25px' height='25px'>"
+    td6.innerHTML = "<input type='image' src='img/yes.png' width='25px' height='25px' value='SAVE'>"
     var td7 = d.createElement("th")
     tr.appendChild(td7)
     td7.innerHTML = "<button type='button' id='addedBut' onclick='deleteRow(this)'><img src='img/delete.png' width='25px' height='25px'></button>"
