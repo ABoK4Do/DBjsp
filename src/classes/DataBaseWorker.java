@@ -145,7 +145,7 @@ public class DataBaseWorker {
 
             //Обновляю строку
 
-            stmt.executeUpdate("UPDATE APP.FOODS SET NAME='"+name+"',CATEGORY_ID="+catID+",PRICE='"+price+"' WHERE ID="+id);
+            stmt.executeUpdate("UPDATE APP.FOODS SET NAME='"+name+"',CATEGORY_ID="+catID+",PRICE="+price+" WHERE ID="+id);
             stmt.close();
         } catch (SQLException e) {
             log.error("Error while updating");

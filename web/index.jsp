@@ -26,7 +26,7 @@
 <input type="button" name="hi" value="click" onclick="colorChange()">
 
 
-<input type="hidden" name="typeTable" value="">
+
 
 
 
@@ -38,6 +38,7 @@
     <input TYPE="submit" id="saveSome" name="chooser" VALUE="SAVE" style="visibility:hidden">
     <input TYPE="submit" id="updateSome" name="chooser" VALUE="UPDATE" style="visibility:hidden">
     <input TYPE="submit" id="deleteSome" name="chooser" VALUE="DELETE" style="visibility:hidden">
+    <input type="hidden" name="typeTableInput" value="<%=request.getAttribute("typeTable")%>">
 
 
 
@@ -97,7 +98,8 @@
 
 
 
-        <%}}
+        <%}
+            request.setAttribute("typeTable", "row");}
             if(request.getAttribute("typeTable").equals("text")){
         %><script>showButtons(1);</script><%
                 for (ResultPOJO s : listTable){
@@ -113,7 +115,8 @@
         <th><button type='button' onclick='deleteElem(this)'><img src='img/delete.png' width='25px' height='25px'></button></th>
 
     </tr>
-    <%}}}%>
+    <%}
+            request.setAttribute("typeTable", "text");}}%>
       </table>
     </div>
     <br>

@@ -14,7 +14,7 @@ import java.io.IOException;
 public class searchServlet extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        req.setAttribute("typeTable", "row");
         if(req.getParameter("searchCat").equals("1")) {
             req.setAttribute("resultArray", DataBaseWorker.searchByName(req.getParameter("finder")));
             getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);

@@ -14,8 +14,8 @@ import java.io.IOException;
 public class updateSomeServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if(req.getParameter("typeTable").equals("text")||req.getParameter("typeTable") == null) {
-           /* String[] arrayIds = req.getParameterValues("updateBox");
+        if(req.getParameter("typeTableInput").equals("text")) {
+            String[] arrayIds = req.getParameterValues("updateBox");
             String[] names = req.getParameterValues("addName");
             String[] categories = req.getParameterValues("addCat");
             String[] prices = req.getParameterValues("addPrice");
@@ -24,12 +24,14 @@ public class updateSomeServlet extends HttpServlet {
                 if (names[i] != "null" && !names[i].equals(""))
                     if (prices[i] != "null" && !prices[i].equals(""))
                     {
-                           // DataBaseWorker.updateOne(arrayIds[i], names[i], categories[i], prices[i]);
+                            DataBaseWorker.updateOne(arrayIds[i], names[i], categories[i], prices[i]);
                 }
             }
             req.setAttribute("typeTable", "row");
-            */
-            getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
+
+
+
+            getServletContext().getRequestDispatcher("/showAllServlet").forward(req,resp);
 
         } else {
             if (req.getParameter("updateBox") != null) {
@@ -42,6 +44,7 @@ public class updateSomeServlet extends HttpServlet {
                 ids += arrayIds[arrayIds.length - 1] + ")";
                 req.setAttribute("resultArray", DataBaseWorker.searchByIds(ids));
                 req.setAttribute("typeTable", "text");
+
                 getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 
             }
