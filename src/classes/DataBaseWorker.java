@@ -13,18 +13,18 @@ public class DataBaseWorker {
     private static String dbURL = "jdbc:derby:Restaurant;create=false";
     private static String driver = "org.apache.derby.jdbc.EmbeddedDriver";
     private static final String showAllStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
-                                                "From APP.FOODS t1 LEFT JOIN APP.CATEGORY t2 " +
+                                                "From APP.FOODS1 t1 LEFT JOIN APP.CATEGORY t2 " +
                                                  "ON t1.CATEGORY_ID = t2.ID";
     private static final String searchByNameStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
-            "From APP.FOODS t1 LEFT JOIN APP.CATEGORY t2 " +
+            "From APP.FOODS1 t1 LEFT JOIN APP.CATEGORY t2 " +
             "ON t1.CATEGORY_ID = t2.ID " +
             "Where t1.name LIKE ";
     private static final String searchByCatStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
-            "From APP.FOODS t1 LEFT JOIN APP.CATEGORY t2 " +
+            "From APP.FOODS1 t1 LEFT JOIN APP.CATEGORY t2 " +
             "ON t1.CATEGORY_ID = t2.ID " +
             "Where t2.name LIKE ";
     private static final String searchByIdsStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
-            "From APP.FOODS t1 LEFT JOIN APP.CATEGORY t2 " +
+            "From APP.FOODS1 t1 LEFT JOIN APP.CATEGORY t2 " +
             "ON t1.CATEGORY_ID = t2.ID " +
             "Where t1.ID in ";
 
@@ -100,7 +100,7 @@ public class DataBaseWorker {
         try {
             stmt = conn.createStatement();
             //Нахожу максимальный айди и потом к нему +1
-            ResultSet results = stmt.executeQuery("SELECT MAX(ID) From APP.FOODS");
+            ResultSet results = stmt.executeQuery("SELECT MAX(ID) From APP.FOODS1");
             results.next();
             newID = results.getInt(1)+1;
             //Добавляю новую строку если метод принял 3 переменных
@@ -112,11 +112,11 @@ public class DataBaseWorker {
                 cat_id = results.getInt(1);}
                 else cat_id = 0;
                 //Добавляю
-                stmt.executeUpdate("INSERT INTO APP.FOODS(ID, NAME, CATEGORY_ID, PRICE) VALUES("+newID+",'"+name+"',"+cat_id+","+Integer.parseInt(args[2].toString())+")");
+                stmt.executeUpdate("INSERT INTO APP.FOODS1(ID, NAME, CATEGORY_ID, PRICE) VALUES("+newID+",'"+name+"',"+cat_id+","+Integer.parseInt(args[2].toString())+")");
             }
             //Добавляю новую строку если метод принял 2 переменных
             if(args.length==2){
-                stmt.executeUpdate("INSERT INTO APP.FOODS(ID, NAME, PRICE) VALUES("+newID+",'"+name+"',"+Integer.parseInt(args[1].toString())+")");
+                stmt.executeUpdate("INSERT INTO APP.FOODS1(ID, NAME, PRICE) VALUES("+newID+",'"+name+"',"+Integer.parseInt(args[1].toString())+")");
                 }
             stmt.close();
 
@@ -146,7 +146,7 @@ public class DataBaseWorker {
 
             //Обновляю строку
 
-            stmt.executeUpdate("UPDATE APP.FOODS SET NAME='"+name+"',CATEGORY_ID="+catID+",PRICE="+price+" WHERE ID="+id);
+            stmt.executeUpdate("UPDATE APP.FOODS1 SET NAME='"+name+"',CATEGORY_ID="+catID+",PRICE="+price+" WHERE ID="+id);
             stmt.close();
         } catch (SQLException e) {
             log.error("Error while updating");
@@ -164,7 +164,7 @@ public class DataBaseWorker {
         try {
             //Удаляю строку
             stmt = conn.createStatement();
-            stmt.executeUpdate("DELETE FROM APP.FOODS WHERE ID IN "+ids+"");
+            stmt.executeUpdate("DELETE FROM APP.FOODS1 WHERE ID IN "+ids+"");
             stmt.close();
         } catch (SQLException e) {
             log.error("Error while deleting");

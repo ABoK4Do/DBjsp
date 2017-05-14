@@ -10,8 +10,10 @@ import java.util.List;
 public class HibTest {
 
     public static void main(String[] args) throws SQLException{
-        FoodsEntity foodTest1 = new FoodsEntity("Tester1",50);
-        Factory.getInstance().getFoodDAO().insert(foodTest1);
+        for(int i = 0; i<150; i++){
+            FoodsEntity foodTest1 = new FoodsEntity("Tester1", 50);
+            Factory.getInstance().getFoodDAO().insert(foodTest1);
+        }
 
         List<FoodsEntity> list1 = Factory.getInstance().getFoodDAO().findAll();
 
@@ -19,8 +21,8 @@ public class HibTest {
         for (FoodsEntity i: list1) {
             System.out.println(i.getName()+" | "+i.getId());
         }
-     FoodsEntity food1 = Factory.getInstance().getFoodDAO().find(2);
+     //FoodsEntity food1 = Factory.getInstance().getFoodDAO().find(2);
 
-        System.out.println(food1.getName());
+       // System.out.println(food1.getName());
     }
 }
