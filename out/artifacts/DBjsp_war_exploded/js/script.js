@@ -83,7 +83,7 @@ function addTr() {
     td5.innerHTML = "<input type='text' name='addPrice' value=''>"
     var td6 = d.createElement("th")
     tr.appendChild(td6)
-    td6.innerHTML = "<input type='image' src='img/yes.png' width='25px' height='25px' value='SAVE'>"
+    td6.innerHTML = "<button type='button' name='sayHello' value='SAVE' ><img src='img/yes.png' width='25px' height='25px'></button>"
     var td7 = d.createElement("th")
     tr.appendChild(td7)
     td7.innerHTML = "<button type='button' id='addedBut' onclick='deleteRow(this)'><img src='img/delete.png' width='25px' height='25px'></button>"
@@ -106,3 +106,4 @@ function deleteElem(r) {
 
 
 }
+

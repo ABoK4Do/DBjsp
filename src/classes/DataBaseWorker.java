@@ -94,6 +94,7 @@ public class DataBaseWorker {
     //Добавить одну сущность в таблицу. Метод принимает 2 переменные: имя блюда и цену, либо 3 переменные: имя, название категории и цену
     public static synchronized void addOne(Object...args){
         //Проверяю, есть ли подключение к БД
+        int newID = 0;
         if(conn == null) { createConnection();}
         String name = args[0].toString();
         try {
@@ -101,7 +102,7 @@ public class DataBaseWorker {
             //Нахожу максимальный айди и потом к нему +1
             ResultSet results = stmt.executeQuery("SELECT MAX(ID) From APP.FOODS");
             results.next();
-            int newID = results.getInt(1)+1;
+            newID = results.getInt(1)+1;
             //Добавляю новую строку если метод принял 3 переменных
             if(args.length==3){
                 //Узнаю id категории по заданному имени категории
@@ -125,7 +126,7 @@ public class DataBaseWorker {
             log.error("Error while adding");
             e.printStackTrace();
         }
-        log.info("add one elem");
+        log.info("add one elem id="+newID);
     }
 
     //Обновить сущность таблицы 1
@@ -157,19 +158,19 @@ public class DataBaseWorker {
 
 
     //Удалить сущность по id блюда
-    public static void delOne(int id){
+    public static void delSome(String ids){
         //Проверяю подключение к базе данных
         if(conn == null) { createConnection();}
         try {
             //Удаляю строку
             stmt = conn.createStatement();
-            stmt.executeUpdate("DELETE FROM APP.FOODS WHERE ID="+id+"");
+            stmt.executeUpdate("DELETE FROM APP.FOODS WHERE ID IN "+ids+"");
             stmt.close();
         } catch (SQLException e) {
             log.error("Error while deleting");
             e.printStackTrace();
         }
-        log.info("Deleted");
+        log.info("Deleted elements "+ids);
 
     }
 
@@ -233,7 +234,7 @@ public class DataBaseWorker {
             log.error("Error while finding by ids");
             e.printStackTrace();
         }
-        log.info("found some ids");
+        log.info("found some ids ="+str);
         return listTable;
 
     }

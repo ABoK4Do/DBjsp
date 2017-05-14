@@ -42,6 +42,7 @@
 
 
 
+
     <br>
     <input type="text" name="finder"><select name="searchCat">
         <option value="1">
@@ -105,7 +106,7 @@
                 for (ResultPOJO s : listTable){
 
         %>
-    <tr id="bodyRow">
+    <tr id="bodyText">
         <th width="10px"><input type="checkbox" name="updateBox" value="<%=s.getId()%>" checked></th>
         <th></th>
         <th><input type="text" name="addName" value="<%=(s.getName())%>"></th>
