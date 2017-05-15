@@ -10,11 +10,10 @@ import java.util.List;
 /**
  * Created by ABoK4Do on 01.05.17.
  */
-public class FoodDAO {
+public class FoodDAO implements DAO<FoodsEntity>{
 
 
-        public FoodDAO() {
-            // инициализация
+        public FoodDAO(){
         }
 
 
@@ -36,6 +35,7 @@ public class FoodDAO {
             }
         }
 
+
         public void update(FoodsEntity food) throws SQLException{
             Session session = null;
             try {
@@ -51,6 +51,7 @@ public class FoodDAO {
                 }
             }
         }
+
 
         public void delete(FoodsEntity food) throws SQLException{
             Session session = null;
@@ -68,6 +69,7 @@ public class FoodDAO {
             }
         }
 
+
         public FoodsEntity find(int id) throws SQLException{
             Session session = null;
             FoodsEntity food = null;
@@ -83,6 +85,7 @@ public class FoodDAO {
             }
             return food;
         }
+
 
         public List<FoodsEntity> findAll() throws SQLException{
             Session session = null;

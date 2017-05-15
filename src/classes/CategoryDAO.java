@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by ABoK4Do on 01.05.17.
  */
-public class CategoryDAO {
+public class CategoryDAO implements DAO<CategoryEntity> {
 
 
 
@@ -67,12 +67,12 @@ public class CategoryDAO {
         }
     }
 
-    public FoodsEntity find(int id) throws SQLException{
+    public CategoryEntity find(int id) throws SQLException{
         Session session = null;
-        FoodsEntity food = null;
+        CategoryEntity cat = null;
         try {
             session = HibernateUtil.getSessionFactory().openSession();
-            food = (FoodsEntity) session.load(CategoryEntity.class, id);
+            cat = (CategoryEntity) session.load(CategoryEntity.class, id);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'find'", JOptionPane.OK_OPTION);
         } finally {
@@ -80,15 +80,15 @@ public class CategoryDAO {
                 session.close();
             }
         }
-        return food;
+        return cat;
     }
 
-    public List<FoodsEntity> findAll() throws SQLException{
+    public List<CategoryEntity> findAll() throws SQLException{
         Session session = null;
-        List foods = new ArrayList<FoodsEntity>();
+        List cats = new ArrayList<FoodsEntity>();
         try {
             session = HibernateUtil.getSessionFactory().openSession();
-            foods = session.createCriteria(CategoryEntity.class).list();
+            cats = session.createCriteria(CategoryEntity.class).list();
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'findAll'", JOptionPane.OK_OPTION);
         } finally {
@@ -96,7 +96,7 @@ public class CategoryDAO {
                 session.close();
             }
         }
-        return foods;
+        return cats;
     }
 
 

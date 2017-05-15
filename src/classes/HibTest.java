@@ -10,10 +10,13 @@ import java.util.List;
 public class HibTest {
 
     public static void main(String[] args) throws SQLException{
-        for(int i = 0; i<150; i++){
+       /* for(int i = 0; i<150; i++){
             FoodsEntity foodTest1 = new FoodsEntity("Tester1", 50);
             Factory.getInstance().getFoodDAO().insert(foodTest1);
-        }
+        }*/
+
+        FoodsEntity foodTest2 = new FoodsEntity("Tester1", 50);
+        Factory.getInstance().getFoodDAO().delete(foodTest2);
 
         List<FoodsEntity> list1 = Factory.getInstance().getFoodDAO().findAll();
 

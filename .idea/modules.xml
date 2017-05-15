@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DBjsp.iml" filepath="$PROJECT_DIR$/DBjsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBjsp-git.iml" filepath="$PROJECT_DIR$/DBjsp-git.iml" />
     </modules>
   </component>
 </project>
