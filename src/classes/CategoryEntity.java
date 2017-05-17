@@ -2,10 +2,8 @@ package classes;
 
 import org.hibernate.annotations.Proxy;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by ABoK4Do on 11.05.17.
@@ -17,8 +15,12 @@ public class CategoryEntity {
     @Id
     @Column(name = "ID", nullable = false)
     private int id;
+
     @Column(name = "NAME", nullable = false, length = 20)
     private String name;
+
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "category")
+    private List<FoodsEntity> foods;
 
 
     public int getId() {
@@ -33,6 +35,13 @@ public class CategoryEntity {
     }
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<FoodsEntity> getFoods() {
+        return foods;
+    }
+    public void setFoods(List<FoodsEntity> foods) {
+        this.foods = foods;
     }
 
     @Override

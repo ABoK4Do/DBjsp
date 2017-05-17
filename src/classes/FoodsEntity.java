@@ -1,5 +1,7 @@
 package classes;
 
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 import org.hibernate.annotations.Proxy;
 
 import javax.persistence.*;
@@ -16,13 +18,19 @@ public class FoodsEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-
     @Column(name = "NAME", nullable = true, length = 30)
     private String name;
+
     @Column(name = "CATEGORY_ID", nullable = true)
     private Integer categoryId;
+
     @Column(name = "PRICE", nullable = true)
     private Integer price;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @Fetch(FetchMode.JOIN)
+    @JoinColumn(name = "CATEGORY_ID", insertable = false, updatable = false, nullable = true)
+    private CategoryEntity category;
 
 
     public FoodsEntity(){
@@ -72,6 +80,13 @@ public class FoodsEntity {
     }
     public void setPrice(Integer price) {
         this.price = price;
+    }
+
+    public CategoryEntity getCategory() {
+        return category;
+    }
+    public void setCategory(CategoryEntity category) {
+        this.category = category;
     }
 
     @Override

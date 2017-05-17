@@ -1,6 +1,8 @@
 package classes;
 
+import org.hibernate.Criteria;
 import org.hibernate.Session;
+import org.hibernate.criterion.Restrictions;
 
 import javax.swing.*;
 import java.sql.SQLException;
@@ -70,7 +72,7 @@ public class FoodDAO implements DAO<FoodsEntity>{
         }
 
 
-        public FoodsEntity find(int id) throws SQLException{
+        public FoodsEntity findById(int id) throws SQLException{
             Session session = null;
             FoodsEntity food = null;
             try {
@@ -83,6 +85,29 @@ public class FoodDAO implements DAO<FoodsEntity>{
                     session.close();
                 }
             }
+            return food;
+        }
+
+
+        public FoodsEntity findByName(String name) throws SQLException{
+            Session session = null;
+            FoodsEntity food = null;
+            try {
+                session = HibernateUtil.getSessionFactory().openSession();
+                Criteria criteria = session.createCriteria(FoodsEntity.class);
+
+                criteria.add(Restrictions.eq("name", name));
+
+                food = (FoodsEntity) criteria.uniqueResult();
+
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'find'", JOptionPane.OK_OPTION);
+            } finally {
+                if (session != null && session.isOpen()) {
+                    session.close();
+                }
+            }
+
             return food;
         }
 
