@@ -96,7 +96,7 @@ public class FoodDAO implements DAO<FoodsEntity>{
                 session = HibernateUtil.getSessionFactory().openSession();
                 Criteria criteria = session.createCriteria(FoodsEntity.class);
 
-                criteria.add(Restrictions.eq("name", name));
+                criteria.add(Restrictions.eq("", name));
 
                 food = (FoodsEntity) criteria.uniqueResult();
 

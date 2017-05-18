@@ -4,52 +4,17 @@ import org.apache.log4j.Logger;
 
 import java.sql.*;
 import java.util.ArrayList;
-
+import java.util.List;
 
 /**
  * Created by ABoK4Do on 07.12.16.
  */
 public class DataBaseWorker {
-    private static String dbURL = "jdbc:derby:Restaurant;create=false";
-    private static String driver = "org.apache.derby.jdbc.EmbeddedDriver";
-    private static final String showAllStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
-                                                "From APP.FOODS1 t1 LEFT JOIN APP.CATEGORY t2 " +
-                                                 "ON t1.CATEGORY_ID = t2.ID";
-    private static final String searchByNameStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
-            "From APP.FOODS1 t1 LEFT JOIN APP.CATEGORY t2 " +
-            "ON t1.CATEGORY_ID = t2.ID " +
-            "Where t1.name LIKE ";
-    private static final String searchByCatStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
-            "From APP.FOODS1 t1 LEFT JOIN APP.CATEGORY t2 " +
-            "ON t1.CATEGORY_ID = t2.ID " +
-            "Where t2.name LIKE ";
-    private static final String searchByIdsStatement = "Select t1.id id, t1.name name, t1.CATEGORY_ID cat_id, t1.price price, t2.name cat_name " +
-            "From APP.FOODS1 t1 LEFT JOIN APP.CATEGORY t2 " +
-            "ON t1.CATEGORY_ID = t2.ID " +
-            "Where t1.ID in ";
-
-    private static Connection conn = null;
-    private static Statement stmt = null;
 
     //Логирование
     private static final Logger log = Logger.getLogger(DataBaseWorker.class);
 
-    //Подключение к базе
-    private static void createConnection()
-    {
-        try {
-            Class.forName(driver).newInstance();
-            conn = DriverManager.getConnection(dbURL);
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    private static void closeConnection() throws SQLException {
-        if(conn != null) {
-            conn.close();
-        }
-    }
 
     private static ArrayList<ResultPOJO> fromRStoAL (ResultSet results) throws SQLException {
         ArrayList<ResultPOJO> listTable = new ArrayList();
@@ -68,57 +33,42 @@ public class DataBaseWorker {
 
 
     //Метод для вывода таблицы. На выходе лист, состоящий из строк таблицы
-    public static ArrayList<ResultPOJO> showDB(){
-
-        ArrayList<ResultPOJO> listTable = new ArrayList();
-
-        ResultSet results=null;
+    public static List<FoodsEntity> showDB() {
+        List<FoodsEntity> listTable = null;
         try {
-            if(conn == null) { createConnection();}
-            stmt = conn.createStatement();
-            //Делаю SQL запрос на вывод таблицы
-            results = stmt.executeQuery(showAllStatement);
-
-            listTable = fromRStoAL(results);
-
-
-        } catch (Exception e) {
+            listTable = Factory.getInstance().getFoodDAO().findAll();
+        } catch (SQLException e) {
             e.printStackTrace();
         }
-
         log.info("DB showed");
         return listTable;
     }
 
 
     //Добавить одну сущность в таблицу. Метод принимает 2 переменные: имя блюда и цену, либо 3 переменные: имя, название категории и цену
-    public static synchronized void addOne(Object...args){
+    public static  void addOne(Object...args){
         //Проверяю, есть ли подключение к БД
-        int newID = 0;
-        if(conn == null) { createConnection();}
         String name = args[0].toString();
+        int cat_id = 0;
+        FoodsEntity food = new FoodsEntity();
         try {
-            stmt = conn.createStatement();
-            //Нахожу максимальный айди и потом к нему +1
-            ResultSet results = stmt.executeQuery("SELECT MAX(ID) From APP.FOODS1");
-            results.next();
-            newID = results.getInt(1)+1;
+
             //Добавляю новую строку если метод принял 3 переменных
             if(args.length==3){
                 //Узнаю id категории по заданному имени категории
-                results = stmt.executeQuery("SELECT ID From APP.CATEGORY WHERE NAME='"+args[1].toString()+"'");
-                int cat_id;
-                if(results.next()){
-                cat_id = results.getInt(1);}
-                else cat_id = 0;
-                //Добавляю
-                stmt.executeUpdate("INSERT INTO APP.FOODS1(ID, NAME, CATEGORY_ID, PRICE) VALUES("+newID+",'"+name+"',"+cat_id+","+Integer.parseInt(args[2].toString())+")");
+                CategoryEntity cat = Factory.getInstance().getCategoryDAO().findByName(args[1].toString());
+
+                if(cat!=null){
+                    cat_id = cat.getId();}
+
             }
-            //Добавляю новую строку если метод принял 2 переменных
-            if(args.length==2){
-                stmt.executeUpdate("INSERT INTO APP.FOODS1(ID, NAME, PRICE) VALUES("+newID+",'"+name+"',"+Integer.parseInt(args[1].toString())+")");
-                }
-            stmt.close();
+
+            food.setName(name);
+            food.setPrice(Integer.parseInt(args[2].toString()));
+            food.setCategoryId(cat_id);
+            //Добавляю
+            Factory.getInstance().getFoodDAO().insert(food);
+
 
 
 
@@ -126,28 +76,26 @@ public class DataBaseWorker {
             log.error("Error while adding");
             e.printStackTrace();
         }
-        log.info("add one elem id="+newID);
+        log.info("add one elem");
     }
 
     //Обновить сущность таблицы 1
     public static void updateOne(String id, String name, String catName, String price){
-        //Проверяю подключение к базе данных
-        if(conn == null) { createConnection();}
+        int cat_id = 0;
+        FoodsEntity food = new FoodsEntity();
         try {
-            stmt = conn.createStatement();
-            int catID = 0;
 
 
+            CategoryEntity cat = Factory.getInstance().getCategoryDAO().findByName(catName);
+            if(cat!=null){
+                cat_id = cat.getId();}
+            food.setId(Integer.parseInt(id));
+            food.setName(name);
+            food.setPrice(Integer.parseInt(price));
+            food.setCategoryId(cat_id);
+            Factory.getInstance().getFoodDAO().update(food);
 
-            //Нахожу максимальный айди и потом к нему +1
-            ResultSet results = stmt.executeQuery("SELECT ID From APP.CATEGORY WHERE NAME='" + catName + "'");
-            if(results.next()){
-                catID = results.getInt(1);}
 
-            //Обновляю строку
-
-            stmt.executeUpdate("UPDATE APP.FOODS1 SET NAME='"+name+"',CATEGORY_ID="+catID+",PRICE="+price+" WHERE ID="+id);
-            stmt.close();
         } catch (SQLException e) {
             log.error("Error while updating");
             e.printStackTrace();
@@ -159,18 +107,14 @@ public class DataBaseWorker {
 
     //Удалить сущность по id блюда
     public static void delSome(String ids){
-        //Проверяю подключение к базе данных
-        if(conn == null) { createConnection();}
-        try {
-            //Удаляю строку
-            stmt = conn.createStatement();
-            stmt.executeUpdate("DELETE FROM APP.FOODS1 WHERE ID IN "+ids+"");
-            stmt.close();
+
+      /*  try {
+
         } catch (SQLException e) {
             log.error("Error while deleting");
             e.printStackTrace();
         }
-        log.info("Deleted elements "+ids);
+        log.info("Deleted elements "+ids);*/
 
     }
 
@@ -178,9 +122,8 @@ public class DataBaseWorker {
     //Найти по имени блюда
     public static ArrayList<ResultPOJO> searchByName(String name){
         //Проверяю подключение к базе данных
-        if(conn == null) { createConnection();}
         ArrayList<ResultPOJO> listTable = null;
-        ResultSet results=null;
+       /* ResultSet results=null;
         try {
             //Удаляю строку
             stmt = conn.createStatement();
@@ -191,16 +134,15 @@ public class DataBaseWorker {
             log.error("Error while finding by name");
             e.printStackTrace();
         }
-        log.info("found");
+        log.info("found");*/
         return listTable;
 
     }
     //Найти по имени категории
     public static ArrayList<ResultPOJO> searchByCat(String name){
-        //Проверяю подключение к базе данных
 
-        if(conn == null) { createConnection();}
         ArrayList<ResultPOJO> listTable = null;
+        /*
         ResultSet results=null;
         try {
             //Удаляю строку
@@ -212,7 +154,7 @@ public class DataBaseWorker {
             log.error("Error while finding by category name");
             e.printStackTrace();
         }
-        log.info("found");
+        log.info("found");*/
         return listTable;
 
     }
@@ -220,9 +162,9 @@ public class DataBaseWorker {
 
     //Найти по id имени
     public static ArrayList<ResultPOJO> searchByIds(String str){
-        //Проверяю подключение к базе данных
-        if(conn == null) { createConnection();}
+
         ArrayList<ResultPOJO> listTable = null;
+        /*
         ResultSet results=null;
         try {
             //Удаляю строку
@@ -234,9 +176,12 @@ public class DataBaseWorker {
             log.error("Error while finding by ids");
             e.printStackTrace();
         }
-        log.info("found some ids ="+str);
+        log.info("found some ids ="+str);*/
         return listTable;
 
     }
+
+
+
 }
 

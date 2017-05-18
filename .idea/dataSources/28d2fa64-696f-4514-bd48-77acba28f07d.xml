@@ -60,5 +60,14 @@
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
+    <foreign-key id="24" parent="14" name="FK3FF87B57E029D65">
+      <ColNames>CATEGORY_ID</ColNames>
+      <RefSchemaName>APP</RefSchemaName>
+      <RefTableName>CATEGORY</RefTableName>
+      <RefKeyName>CATEGORY_ID_PK</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>no-action</OnDelete>
+      <OnUpdate>no-action</OnUpdate>
+    </foreign-key>
   </database-model>
 </dataSource>

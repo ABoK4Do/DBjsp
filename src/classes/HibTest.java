@@ -31,6 +31,15 @@ public class HibTest {
 
         FoodsEntity food3 = Factory.getInstance().getFoodDAO().findByName("BBQ");
         System.out.println(food3.getId()+" and "+food3.getName()+" and "+food3.getCategory().getName());
+
+        CategoryEntity cat1 = Factory.getInstance().getCategoryDAO().findByName("LOLLL");
+        if(cat1!=null){
+        System.out.println(cat1.getId());}
+       // System.out.println(cat1.getFoods());
+       // List<FoodsEntity> listCat1 = cat1.getFoods();
+       // for (FoodsEntity i: listCat1){
+       //    System.out.println(i.getName()+" | "+i.getId()+" | "+ i.getPrice()+" | "+ i.getCategoryId()+" | ");
+       // }
      //FoodsEntity food1 = Factory.getInstance().getFoodDAO().find(2);
 
        // System.out.println(food1.getName());

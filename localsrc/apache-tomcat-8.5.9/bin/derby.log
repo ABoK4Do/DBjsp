@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Thu May 11 20:10:15 MSK 2017:
- Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): экземпляр a816c00e-015b-f87d-569d-0000074c4640
-в каталоге базы данных /Users/ABoK4Do/Documents/DBjsp-git/localsrc/apache-tomcat-8.5.9/bin/Restaurant java.net.URLClassLoader@63c12fb0 
+Thu May 18 04:45:42 MSK 2017:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): экземпляр a816c00e-015c-193b-6591-000009a46bd8
+в каталоге базы данных /Users/ABoK4Do/Documents/DBjsp-git/localsrc/apache-tomcat-8.5.9/bin/Restaurant java.net.URLClassLoader@6438a396 
 
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_92-b14
 user.dir=/Users/ABoK4Do/Documents/DBjsp-git/localsrc/apache-tomcat-8.5.9/bin
 os.name=Mac OS X
 os.arch=x86_64
-os.version=10.12.4
+os.version=10.12.5
 derby.system.home=null
 Запущен загрузчик классов базы данных - derby.database.classpath=''

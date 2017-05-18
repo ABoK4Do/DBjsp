@@ -2,58 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc3e66-7b9c-4f3e-86e4-8256d8f637dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log53.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c5d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log59.dat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/db.lck" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/db.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log.ctrl" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log.ctrl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/logmirror.ctrl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c10.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c10.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c101.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c101.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c111.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c111.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c121.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c121.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c150.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c150.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c161.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c161.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c171.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c171.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c20.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c20.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c200.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c200.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c211.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c211.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c221.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c221.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c230.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c230.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c241.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c241.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c251.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c251.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c2d0.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c2d0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c2e1.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c2e1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c31.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c31.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c400.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c400.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c41.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c41.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c500.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c500.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c51.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c51.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c521.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c521.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c551.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c551.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c60.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c60.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c600.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c600.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c611.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c611.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c71.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c71.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c81.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c81.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c90.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c90.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/ca1.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/ca1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/cb1.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/cb1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/cf0.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/cf0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/CategoryDAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/CategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/CategoryDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/CategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/CategoryEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/CategoryEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DataBaseWorker.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DataBaseWorker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodsEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodsEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/HibTest.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/HibTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/showAllServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/showAllServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/CategoryEntity.class" afterPath="$PROJECT_DIR$/target/classes/classes/CategoryEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/DAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/DAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/DataBaseWorker.class" afterPath="$PROJECT_DIR$/target/classes/classes/DataBaseWorker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/FoodDAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/FoodDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/FoodsEntity.class" afterPath="$PROJECT_DIR$/target/classes/classes/FoodsEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/HibTest.class" afterPath="$PROJECT_DIR$/target/classes/classes/HibTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/showAllServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/showAllServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/28d2fa64-696f-4514-bd48-77acba28f07d.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/28d2fa64-696f-4514-bd48-77acba28f07d.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/CategoryDAO.java" afterPath="$PROJECT_DIR$/src/classes/CategoryDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/derby.log" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/derby.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/loger.log" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/loger.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/CategoryEntity.java" afterPath="$PROJECT_DIR$/src/classes/CategoryEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/DAO.java" afterPath="$PROJECT_DIR$/src/classes/DAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/DataBaseWorker.java" afterPath="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/FoodDAO.java" afterPath="$PROJECT_DIR$/src/classes/FoodDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/FoodsEntity.java" afterPath="$PROJECT_DIR$/src/classes/FoodsEntity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/HibTest.java" afterPath="$PROJECT_DIR$/src/classes/HibTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/loger.log" afterPath="$PROJECT_DIR$/src/loger.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loger.log" afterPath="$PROJECT_DIR$/target/classes/loger.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="DBjsp-git.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,74 +108,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/HibernateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultPOJO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/ResultPOJO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodsEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/FoodsEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/FoodDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="98" column="50" lean-forward="false" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classes/CategoryDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/DAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HibTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/HibTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="32" column="102" lean-forward="false" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="102" />
+            <state relative-caret-position="525">
+              <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseWorkerCopy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorkerCopy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1473">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showAllServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlets/showAllServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/FoodDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="112" column="75" lean-forward="true" selection-start-line="112" selection-start-column="75" selection-end-line="112" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wayServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlets/wayServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBseWorkerCopy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/DataBseWorkerCopy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2958">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1495065453000" expanded="true" signature="374:565" ph="Select t1.id... FOODS1" />
+                <marker date="1495065453000" expanded="true" signature="625:852" ph="Select t1.id... FOODS1" />
+                <marker date="1495065453000" expanded="true" signature="912:1139" ph="Select t1.id... FOODS1" />
+                <marker date="1495065453000" expanded="true" signature="1199:1422" ph="Select t1.id... FOODS1" />
+                <marker date="1495065453000" expanded="true" signature="3734:3764" ph="SELECT MAX(I... FOODS1" />
+                <marker date="1495065453000" expanded="true" signature="4047:4110" ph="SELECT ID Fr... CATEGORY" />
+                <marker date="1495065453000" expanded="true" signature="4323:4456" ph="INSERT INTO APP.FOODS1... " />
+                <marker date="1495065453000" expanded="true" signature="4609:4718" ph="INSERT INTO APP.FOODS1... " />
+                <marker date="1495065453000" expanded="true" signature="5349:5405" ph="SELECT ID Fr... CATEGORY" />
+                <marker date="1495065453000" expanded="true" signature="5549:5634" ph="UPDATE APP.F... " />
+                <marker date="1495065453000" expanded="true" signature="6119:6154" ph="DELETE FROM " />
+                <marker date="1495065453000" expanded="true" signature="6783:6797" ph="Select t1.id... FOODS1" />
+                <marker date="1495065453000" expanded="true" signature="7482:7496" ph="Select t1.id... FOODS1" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,32 +196,10 @@
       <file leaf-file-name="DataBaseWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="345">
+              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="25" />
               <folding>
-                <marker date="1494769524000" expanded="true" signature="372:636" ph="Select t1.*,... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="696:923" ph="Select t1.id... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="983:1174" ph="Select t1.id... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="983:1210" ph="Select t1.id... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="1270:1491" ph="Select t1.id... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="1270:1493" ph="Select t1.id... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="3805:3835" ph="SELECT MAX(I... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="4118:4181" ph="SELECT ID Fr... CATEGORY" />
-                <marker date="1494769524000" expanded="true" signature="4390:4523" ph="INSERT INTO APP.FOODS... " />
-                <marker date="1494769524000" expanded="true" signature="4676:4785" ph="INSERT INTO APP.FOODS... " />
-                <marker date="1494769524000" expanded="true" signature="5420:5459" ph="SELECT ID Fr... CATEGORY" />
-                <marker date="1494769524000" expanded="true" signature="5420:5460" ph="SELECT ID Fr... CATEGORY" />
-                <marker date="1494769524000" expanded="true" signature="5420:5476" ph="SELECT ID Fr... CATEGORY" />
-                <marker date="1494769524000" expanded="true" signature="5620:5648" ph="UPDATE APP.F... " />
-                <marker date="1494769524000" expanded="true" signature="5620:5670" ph="UPDATE APP.F... " />
-                <marker date="1494769524000" expanded="true" signature="5620:5686" ph="UPDATE APP.F... " />
-                <marker date="1494769524000" expanded="true" signature="5620:5705" ph="UPDATE APP.F... " />
-                <marker date="1494769524000" expanded="true" signature="6190:6221" ph="DELETE FROM " />
-                <marker date="1494769524000" expanded="true" signature="6190:6225" ph="DELETE FROM " />
-                <marker date="1494769524000" expanded="true" signature="6190:6232" ph="DELETE FROM " />
-                <marker date="1494769524000" expanded="true" signature="6854:6864" ph="Select t1.id... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="6854:6868" ph="Select t1.id... FOODS" />
-                <marker date="1494769524000" expanded="true" signature="7553:7567" ph="Select t1.id... FOODS" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -277,14 +252,11 @@
         <option value="$PROJECT_DIR$/src/servlets/delClick.java" />
         <option value="$PROJECT_DIR$/src/classes/test.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/servlets/showAllServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/addSomeServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/updateSomeServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/searchServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/delSomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
         <option value="$PROJECT_DIR$/web/js/script.js" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/servlets/wayServlet.java" />
         <option value="$PROJECT_DIR$/src/classes/HibernateTest.java" />
         <option value="$PROJECT_DIR$/src/classes/CatDAO.java" />
@@ -292,16 +264,21 @@
         <option value="$PROJECT_DIR$/src/classes/Category.java" />
         <option value="$PROJECT_DIR$/src/classes/HibernateSessionFactory.java" />
         <option value="$PROJECT_DIR$/src/classes/Factory.java" />
-        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/classes/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/classes/CategoryEntity.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/28d2fa64-696f-4514-bd48-77acba28f07d/console.sql" />
-        <option value="$PROJECT_DIR$/src/classes/FoodsEntity.java" />
         <option value="$PROJECT_DIR$/src/classes/DAO.java" />
-        <option value="$PROJECT_DIR$/src/classes/FoodDAO.java" />
-        <option value="$PROJECT_DIR$/src/classes/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/classes/DataBseWorkerCopy.java" />
+        <option value="$PROJECT_DIR$/src/classes/CategoryEntity.java" />
+        <option value="$PROJECT_DIR$/src/classes/FoodsEntity.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/classes/HibTest.java" />
+        <option value="$PROJECT_DIR$/src/classes/DataBaseWorkerCopy.java" />
+        <option value="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
+        <option value="$PROJECT_DIR$/src/servlets/showAllServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/classes/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/classes/FoodDAO.java" />
       </list>
     </option>
   </component>
@@ -362,6 +339,20 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hibernate 4.0.1-4.1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBjsp-git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -370,6 +361,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DBjsp-git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBjsp-git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBjsp-git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,6 +389,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBjsp-git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBjsp-git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,6 +452,16 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/lib" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/classes" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="classes" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/classes" />
@@ -436,17 +469,8 @@
       <recent name="$PROJECT_DIR$/web/WEB-INF/classes/servlets" />
       <recent name="$PROJECT_DIR$/src/servlets" />
     </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="classes" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/classes" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.HibTest">
+  <component name="RunManager" selected="Tomcat Server.TomCatTest">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -1034,12 +1058,12 @@
       <workItem from="1494458887721" duration="19831000" />
       <workItem from="1494758926963" duration="8197000" />
       <workItem from="1494790742139" duration="1758000" />
-      <workItem from="1495057764657" duration="7300000" />
+      <workItem from="1495057764657" duration="13813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112235000" />
+    <option name="totallyTimeSpent" value="118748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1162,27 +1186,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/servlets/searchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/delSomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="85" column="72" lean-forward="false" selection-start-line="85" selection-start-column="72" selection-end-line="85" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/logs/catalina.2017-01-10.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1222,27 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/wayServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/addSomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1320,14 +1302,6 @@
     <entry file="file://$PROJECT_DIR$/src/classes/DAOInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/classes/DAOFactory.java" />
     <entry file="file://$PROJECT_DIR$/META-INF/orm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/hibernate-core-4.1.1.Final.jar!/org/hibernate/proxy/AbstractLazyInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1440,13 +1414,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CategoryEntity.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/28d2fa64-696f-4514-bd48-77acba28f07d/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/addSomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/wayServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/DataBseWorkerCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2958">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495065453000" expanded="true" signature="374:565" ph="Select t1.id... FOODS1" />
+            <marker date="1495065453000" expanded="true" signature="625:852" ph="Select t1.id... FOODS1" />
+            <marker date="1495065453000" expanded="true" signature="912:1139" ph="Select t1.id... FOODS1" />
+            <marker date="1495065453000" expanded="true" signature="1199:1422" ph="Select t1.id... FOODS1" />
+            <marker date="1495065453000" expanded="true" signature="3734:3764" ph="SELECT MAX(I... FOODS1" />
+            <marker date="1495065453000" expanded="true" signature="4047:4110" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1495065453000" expanded="true" signature="4323:4456" ph="INSERT INTO APP.FOODS1... " />
+            <marker date="1495065453000" expanded="true" signature="4609:4718" ph="INSERT INTO APP.FOODS1... " />
+            <marker date="1495065453000" expanded="true" signature="5349:5405" ph="SELECT ID Fr... CATEGORY" />
+            <marker date="1495065453000" expanded="true" signature="5549:5634" ph="UPDATE APP.F... " />
+            <marker date="1495065453000" expanded="true" signature="6119:6154" ph="DELETE FROM " />
+            <marker date="1495065453000" expanded="true" signature="6783:6797" ph="Select t1.id... FOODS1" />
+            <marker date="1495065453000" expanded="true" signature="7482:7496" ph="Select t1.id... FOODS1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="112" column="75" lean-forward="true" selection-start-line="112" selection-start-column="75" selection-end-line="112" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/CategoryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/FoodsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/CategoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="120" column="15" lean-forward="true" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/HibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/showAllServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorkerCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1473">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,92 +1568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/28d2fa64-696f-4514-bd48-77acba28f07d/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <marker date="1494769524000" expanded="true" signature="372:636" ph="Select t1.*,... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="696:923" ph="Select t1.id... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="983:1174" ph="Select t1.id... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="983:1210" ph="Select t1.id... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="1270:1491" ph="Select t1.id... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="1270:1493" ph="Select t1.id... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="3805:3835" ph="SELECT MAX(I... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="4118:4181" ph="SELECT ID Fr... CATEGORY" />
-            <marker date="1494769524000" expanded="true" signature="4390:4523" ph="INSERT INTO APP.FOODS... " />
-            <marker date="1494769524000" expanded="true" signature="4676:4785" ph="INSERT INTO APP.FOODS... " />
-            <marker date="1494769524000" expanded="true" signature="5420:5459" ph="SELECT ID Fr... CATEGORY" />
-            <marker date="1494769524000" expanded="true" signature="5420:5460" ph="SELECT ID Fr... CATEGORY" />
-            <marker date="1494769524000" expanded="true" signature="5420:5476" ph="SELECT ID Fr... CATEGORY" />
-            <marker date="1494769524000" expanded="true" signature="5620:5648" ph="UPDATE APP.F... " />
-            <marker date="1494769524000" expanded="true" signature="5620:5670" ph="UPDATE APP.F... " />
-            <marker date="1494769524000" expanded="true" signature="5620:5686" ph="UPDATE APP.F... " />
-            <marker date="1494769524000" expanded="true" signature="5620:5705" ph="UPDATE APP.F... " />
-            <marker date="1494769524000" expanded="true" signature="6190:6221" ph="DELETE FROM " />
-            <marker date="1494769524000" expanded="true" signature="6190:6225" ph="DELETE FROM " />
-            <marker date="1494769524000" expanded="true" signature="6190:6232" ph="DELETE FROM " />
-            <marker date="1494769524000" expanded="true" signature="6854:6864" ph="Select t1.id... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="6854:6868" ph="Select t1.id... FOODS" />
-            <marker date="1494769524000" expanded="true" signature="7553:7567" ph="Select t1.id... FOODS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/FoodsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/HibTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="102" lean-forward="false" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/FoodDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="98" column="50" lean-forward="false" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CategoryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding />
         </state>
       </provider>

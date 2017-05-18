@@ -7,8 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="classes.ResultPOJO" %>
+<%@ page import="classes.FoodsEntity" %>
+<%@ page import="java.util.List" %>
 
 <html>
 <head>
@@ -77,11 +77,11 @@
 
 
 
-        ArrayList<ResultPOJO> listTable = (ArrayList<ResultPOJO>) request.getAttribute("resultArray");
+        List<FoodsEntity> listTable = (List<FoodsEntity>) request.getAttribute("resultArray");
 
 
             if(request.getAttribute("typeTable").equals("row")){
-                for (ResultPOJO s : listTable){
+                for (FoodsEntity s : listTable){
                     String srcLink = "img/food/"+Integer.toString(s.getId())+".jpg";
 
 
@@ -90,7 +90,7 @@
         <th width="10px"><input type="checkbox" name="updateBox" value="<%=s.getId()%>" onclick="checkBoxThis()"></th>
         <th><img src="<%=srcLink%>" height="60px" width="auto"></th>
         <th><%=(s.getName())%></th>
-        <th><%=(s.getCat_name())%></th>
+        <th><%=(s.getCategory().getName())%></th>
         <th><%=Float.toString(s.getPrice())%></th>
         <th><input type="image" src="img/update.png" width="25px" height="25px" name=""></th>
         <th><button type='button' onclick='deleteElem(this)'><img src='img/delete.png' width='25px' height='25px'></button></th>
@@ -103,14 +103,14 @@
             request.setAttribute("typeTable", "row");}
             if(request.getAttribute("typeTable").equals("text")){
         %><script>showButtons(1);</script><%
-                for (ResultPOJO s : listTable){
+                for (FoodsEntity s : listTable){
 
         %>
     <tr id="bodyText">
         <th width="10px"><input type="checkbox" name="updateBox" value="<%=s.getId()%>" checked></th>
         <th></th>
         <th><input type="text" name="addName" value="<%=(s.getName())%>"></th>
-        <th><input type="text" name="addCat" value="<%=(s.getCat_name())%>"></th>
+        <th><input type="text" name="addCat" value="<%=(s.getCategory().getName())%>"></th>
         <th><input type="text" name="addPrice" value="<%=Float.toString(s.getPrice())%>"></th>
         <th><input type="image" src="img/update.png" width="25px" height="25px" name=""></th>
         <th><button type='button' onclick='deleteElem(this)'><img src='img/delete.png' width='25px' height='25px'></button></th>
