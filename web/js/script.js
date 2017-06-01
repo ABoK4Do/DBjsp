@@ -11,13 +11,14 @@ function selectAll(elem) {
 
     var x = document.getElementsByName("updateBox")
     var i;
-    if(elem.checked ==  true){
-    for (i = 0; i < x.length; i++) {
-        if (x[i].type == "checkbox") {
-            x[i].checked = true
-            showButtons(1)
+    if (elem.checked == true) {
+        for (i = 0; i < x.length; i++) {
+            if (x[i].type == "checkbox") {
+                x[i].checked = true
+                showButtons(1)
+            }
         }
-    }}
+    }
     else {
         for (i = 0; i < x.length; i++) {
             if (x[i].type == "checkbox") {
@@ -29,19 +30,18 @@ function selectAll(elem) {
 }
 
 
-
 function showButtons(xx) {
-    if(xx == "1"){
+    if (xx == "1") {
         document.getElementById("updateSome").style.visibility = "visible"
         document.getElementById("deleteSome").style.visibility = "visible"
 
     }
-    if(xx == "0"){
+    if (xx == "0") {
         document.getElementById("updateSome").style.visibility = "hidden"
         document.getElementById("deleteSome").style.visibility = "hidden"
         document.getElementById("saveSome").style.visibility = "hidden"
     }
-    if(xx=="2"){
+    if (xx == "2") {
 
         document.getElementById("saveSome").style.visibility = "visible"
 
@@ -91,18 +91,16 @@ function addTr() {
     showButtons(2);
 
 }
-function deleteRow(r)
-{
-    var i=r.parentNode.parentNode.rowIndex;
+function deleteRow(r) {
+    var i = r.parentNode.parentNode.rowIndex;
     document.getElementById('mainTable').deleteRow(i);
-    if(document.getElementById("addedBut") == null){
+    if (document.getElementById("addedBut") == null) {
         showButtons(0);
     }
 }
 
 function deleteElem(r) {
     deleteRow(r);
-
 
 
 }

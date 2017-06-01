@@ -19,16 +19,15 @@ public class addSomeServlet extends HttpServlet {
         String[] categories = req.getParameterValues("addCat");
         String[] prices = req.getParameterValues("addPrice");
 
-            for(int i=0; i<names.length; i++) {
-                if (names[i] != "null" && !names[i].equals(""))
-                    if (prices[i] != "null" && !prices[i].equals(""))
-                        if (categories[i] == "null" && !categories[i].equals("")) {
-                            DataBaseWorker.addOne(names[i].toString(), prices[i]);
-                        } else DataBaseWorker.addOne(names[i].toString(), categories[i], prices[i]);
+        for (int i = 0; i < names.length; i++) {
+            if (names[i] != "null" && !names[i].equals(""))
+                if (prices[i] != "null" && !prices[i].equals(""))
+                    if (categories[i] == "null" && !categories[i].equals("")) {
+                        DataBaseWorker.addOne(names[i].toString(), prices[i]);
+                    } else DataBaseWorker.addOne(names[i].toString(), categories[i], prices[i]);
 
 
-
-            }
+        }
         getServletContext().getRequestDispatcher("/showAllServlet").forward(req, resp);
 
     }

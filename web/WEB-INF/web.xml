@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <servlet>
-        <servlet-name>addSomeServlet</servlet-name>
-        <servlet-class>servlets.addSomeServlet</servlet-class>
+        <servlet-name>addOneAJAX</servlet-name>
+        <servlet-class>servlets.addOneAJAX</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>addSomeServlet</servlet-name>
-        <url-pattern>/addSomeServlet</url-pattern>
+        <servlet-name>addOneAJAX</servlet-name>
+        <url-pattern>/addOneAJAX</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>delSomeServlet</servlet-name>

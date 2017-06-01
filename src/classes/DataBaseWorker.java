@@ -15,11 +15,10 @@ public class DataBaseWorker {
     private static final Logger log = Logger.getLogger(DataBaseWorker.class);
 
 
-
-    private static ArrayList<ResultPOJO> fromRStoAL (ResultSet results) throws SQLException {
+    private static ArrayList<ResultPOJO> fromRStoAL(ResultSet results) throws SQLException {
         ArrayList<ResultPOJO> listTable = new ArrayList();
         //Доваляю строку таблицы
-        while(results.next()){
+        while (results.next()) {
             ResultPOJO row = new ResultPOJO();
             row.setId(results.getInt(1));
             row.setName(results.getString(2));
@@ -46,23 +45,24 @@ public class DataBaseWorker {
 
 
     //Добавить одну сущность в таблицу. Метод принимает 2 переменные: имя блюда и цену, либо 3 переменные: имя, название категории и цену
-    public static  void addOne(Object...args){
-        //Проверяю, есть ли подключение к БД
+    public static void addOne(Object... args) {
+
         String name = args[0].toString();
         int cat_id = 0;
         FoodsEntity food = new FoodsEntity();
         try {
 
             //Добавляю новую строку если метод принял 3 переменных
-            if(args.length==3){
+            if (args.length == 3) {
                 //Узнаю id категории по заданному имени категории
-                CategoryEntity cat=null;
+                CategoryEntity cat = null;
                 List<CategoryEntity> cats = Factory.getInstance().getCategoryDAO().findByName(args[1].toString());
-                if(cats.size()>0)
-                cat = cats.get(0);
+                if (cats.size() > 0)
+                    cat = cats.get(0);
 
-                if(cat!=null){
-                    cat_id = cat.getId();}
+                if (cat != null) {
+                    cat_id = cat.getId();
+                }
 
             }
 
@@ -73,25 +73,24 @@ public class DataBaseWorker {
             Factory.getInstance().getFoodDAO().insert(food);
 
 
-
-
         } catch (SQLException e) {
             log.error("Error while adding");
             e.printStackTrace();
         }
-        log.info("add one elem id="+food.getId());
+        log.info("add one elem id=" + food.getId());
     }
 
     //Обновить сущность таблицы 1
-    public static void updateOne(String id, String name, String catName, String price){
+    public static void updateOne(String id, String name, String catName, String price) {
         int cat_id = 0;
         FoodsEntity food = new FoodsEntity();
         try {
 
 
             CategoryEntity cat = Factory.getInstance().getCategoryDAO().findByName(catName).get(0);
-            if(cat!=null){
-                cat_id = cat.getId();}
+            if (cat != null) {
+                cat_id = cat.getId();
+            }
             food.setId(Integer.parseInt(id));
             food.setName(name);
             food.setPrice(Integer.parseInt(price));
@@ -109,10 +108,10 @@ public class DataBaseWorker {
 
 
     //Удалить сущность по id блюда
-    public static void delSome(int[] ids){
+    public static void delSome(int[] ids) {
         FoodsEntity food = new FoodsEntity();
-       try {
-            for(int i=0;i<ids.length;i++){
+        try {
+            for (int i = 0; i < ids.length; i++) {
                 food.setId(ids[i]);
                 Factory.getInstance().getFoodDAO().delete(food);
             }
@@ -126,7 +125,7 @@ public class DataBaseWorker {
 
 
     //Найти по имени блюда
-    public static List<FoodsEntity> searchByName(String name){
+    public static List<FoodsEntity> searchByName(String name) {
 
         List<FoodsEntity> listTable = null;
 
@@ -140,8 +139,9 @@ public class DataBaseWorker {
         return listTable;
 
     }
+
     //Найти по имени категории
-   public static List<FoodsEntity> searchByCat(String name){
+    public static List<FoodsEntity> searchByCat(String name) {
 
         List<FoodsEntity> listTable = null;
 
@@ -158,7 +158,7 @@ public class DataBaseWorker {
 
 
     //Найти по id имени
-    public static ArrayList<ResultPOJO> searchByIds(String str){
+    public static ArrayList<ResultPOJO> searchByIds(String str) {
 
         ArrayList<ResultPOJO> listTable = null;
         /*
@@ -177,7 +177,6 @@ public class DataBaseWorker {
         return listTable;
 
     }
-
 
 
 }
