@@ -5,7 +5,6 @@ package classes;
  */
 
 import java.sql.SQLException;
-import java.util.List;
 
 public class HibTest {
 
@@ -21,7 +20,7 @@ public class HibTest {
         //Factory.getInstance().getFoodDAO().update(foodTest2);
 
 
-        List<FoodsEntity> list1 = Factory.getInstance().getFoodDAO().findAll();
+      /*  List<FoodsEntity> list1 = Factory.getInstance().getFoodDAO().findAll();
 
         System.out.println("========Все foods=========");
         System.out.println("NAME | ID | Price | catID");
@@ -29,12 +28,12 @@ public class HibTest {
             System.out.println(i.getName()+" | "+i.getId()+" | "+ i.getPrice()+" | "+ i.getCategoryId()+" | "+i.getCategory().getName());
         }
 
-        FoodsEntity food3 = Factory.getInstance().getFoodDAO().findByName("BBQ");
+        FoodsEntity food3 = Factory.getInstance().getFoodDAO().findByName("BBQ").get(0);
         System.out.println(food3.getId()+" and "+food3.getName()+" and "+food3.getCategory().getName());
 
-        CategoryEntity cat1 = Factory.getInstance().getCategoryDAO().findByName("LOLLL");
-        if(cat1!=null){
-        System.out.println(cat1.getId());}
+//        CategoryEntity cat1 = Factory.getInstance().getCategoryDAO().findByName("LOLLL");*/
+  //      if(cat1!=null){
+    //    System.out.println(cat1.getId());}
        // System.out.println(cat1.getFoods());
        // List<FoodsEntity> listCat1 = cat1.getFoods();
        // for (FoodsEntity i: listCat1){

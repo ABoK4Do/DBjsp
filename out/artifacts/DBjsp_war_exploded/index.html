@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="css/indexcss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/Ajax.js"></script>
+    <script src="js/func.js"></script>
+
+</head>
+<body>
+    <div id="butdiv">
+    <button onclick="addRow()" id="addbut">ADD</button>
+    <button id="showAll">Загрузить базу</button>
+    <button id="hiddenAll">Скрыть/Показать</button>
+        <button id="checkBut">check</button>
+        <br>
+
+        <input type="text" id="finder">
+        <select  id="searchCat">
+        <option value="1">
+            Название блюда
+        </option>
+        <option value="2">
+            Категория
+        </option>
+    </select>
+        <button id='findBut' VALUE="search">Поиск</button>
+            <br>
+
+    </div>
+    <div id="infodiv">
+        <table id="mainTable">
+            <tr id="headRow">
+                <th><input type="checkbox" name="updateBoxMain" value="" onclick="selectAll(this)"></th>
+                <th>Photo</th>
+                <th>Name</th>
+                <th>Category_Name</th>
+                <th>Price</th>
+                <th><img src="img/update.png" width="25px" height="25px"></th>
+                <th><img src="img/delete.png" width="25px" height="25px"></th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

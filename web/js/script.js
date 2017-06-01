@@ -63,7 +63,7 @@ function checkBoxThis() {
 
 function addTr() {
     var d = document
-    var div = d.getElementById("mainTable")
+    var div = d.getElementById("table")
     var tr = d.createElement("tr")
     div.appendChild(tr)
     var td1 = d.createElement("th")
@@ -106,4 +106,5 @@ function deleteElem(r) {
 
 
 }
+
 

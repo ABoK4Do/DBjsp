@@ -2,6 +2,7 @@ package classes;
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;
+import org.hibernate.criterion.MatchMode;
 import org.hibernate.criterion.Restrictions;
 
 import javax.swing.*;
@@ -89,26 +90,26 @@ public class FoodDAO implements DAO<FoodsEntity>{
         }
 
 
-        public FoodsEntity findByName(String name) throws SQLException{
+        public List<FoodsEntity> findByName(String name) throws SQLException{
             Session session = null;
-            FoodsEntity food = null;
+            List<FoodsEntity> foods = null;
             try {
                 session = HibernateUtil.getSessionFactory().openSession();
                 Criteria criteria = session.createCriteria(FoodsEntity.class);
 
-                criteria.add(Restrictions.eq("", name));
+                criteria.add(Restrictions.like("name", name, MatchMode.START));
 
-                food = (FoodsEntity) criteria.uniqueResult();
+                foods =  criteria.list();
 
             } catch (Exception e) {
-                JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'find'", JOptionPane.OK_OPTION);
+                JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'findname'", JOptionPane.OK_OPTION);
             } finally {
                 if (session != null && session.isOpen()) {
                     session.close();
                 }
             }
 
-            return food;
+            return foods;
         }
 
 

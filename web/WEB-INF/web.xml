@@ -64,5 +64,24 @@
         <url-pattern>/updateSomeServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>showAllAJAX</servlet-name>
+        <servlet-class>servlets.showAllAJAX</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showAllAJAX</servlet-name>
+        <url-pattern>/showAllAJAX</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>searchAJAX</servlet-name>
+        <servlet-class>servlets.searchAJAX</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchAJAX</servlet-name>
+        <url-pattern>/searchAJAX</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

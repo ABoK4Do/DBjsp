@@ -1,5 +1,7 @@
 package classes;
 
+
+import org.codehaus.jackson.annotate.JsonManagedReference;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 import org.hibernate.annotations.Proxy;
@@ -16,20 +18,26 @@ public class FoodsEntity {
     @Id
     @Column(name = "ID", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@Expose
     private int id;
 
     @Column(name = "NAME", nullable = true, length = 30)
+    //@Expose
     private String name;
 
     @Column(name = "CATEGORY_ID", nullable = true)
+    //@Expose
     private Integer categoryId;
 
     @Column(name = "PRICE", nullable = true)
+    //@Expose
     private Integer price;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @Fetch(FetchMode.JOIN)
     @JoinColumn(name = "CATEGORY_ID", insertable = false, updatable = false, nullable = true)
+    //@Expose
+    @JsonManagedReference
     private CategoryEntity category;
 
 
@@ -82,7 +90,7 @@ public class FoodsEntity {
         this.price = price;
     }
 
-    public CategoryEntity getCategory() {
+   public CategoryEntity getCategory() {
         return category;
     }
     public void setCategory(CategoryEntity category) {

@@ -86,26 +86,26 @@ public class CategoryDAO implements DAO<CategoryEntity> {
     }
 
 
-    public CategoryEntity findByName(String name) throws SQLException{
+    public List<CategoryEntity> findByName(String name) throws SQLException{
         Session session = null;
-        CategoryEntity cat = null;
+        List<CategoryEntity> cats = null;
         try {
             session = HibernateUtil.getSessionFactory().openSession();
             Criteria criteria = session.createCriteria(CategoryEntity.class);
 
             criteria.add(Restrictions.eq("name", name));
 
-            cat = (CategoryEntity) criteria.uniqueResult();
+            cats =  criteria.list();
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'find'", JOptionPane.OK_OPTION);
         } finally {
             if (session != null && session.isOpen()) {
-                session.close();
+               // session.close();
             }
         }
 
-        return cat;
+        return cats;
     }
 
     public List<CategoryEntity> findAll() throws SQLException{
@@ -118,7 +118,7 @@ public class CategoryDAO implements DAO<CategoryEntity> {
             JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'findAll'", JOptionPane.OK_OPTION);
         } finally {
             if (session != null && session.isOpen()) {
-                session.close();
+               // session.close();
             }
         }
         return cats;

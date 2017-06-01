@@ -1,0 +1,55 @@
+
+body {
+    background-color: #fdffd5;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+table{
+    border: black 3px solid;
+    border-collapse: collapse;
+    background-color: greenyellow;
+    width:100%;
+}
+
+th, td{
+    border: black 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td:first-child,th:first-child{
+    width: 5px;
+}
+td:nth-child(2),th:nth-child(2){
+    width:60px;
+}
+td:nth-child(3),th:nth-child(3){
+    width:40%;
+}
+td:nth-child(4),th:nth-child(4){
+    width:25%;
+}
+td:nth-child(5),th:nth-child(5){
+    width:10%;
+}
+td:nth-child(6),th:nth-child(6){
+    width:55px;
+}
+td:last-child,th:last-child{
+    width:55px;
+}
+
+
+
+
+#butdiv{
+    height: 20%;
+
+}
+
+#addedBut, #updateBut, #yes {
+    background-color: greenyellow;
+    border: none;
+}

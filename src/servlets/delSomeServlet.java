@@ -16,15 +16,14 @@ public class delSomeServlet extends HttpServlet{
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         if(req.getParameter("updateBox")!=null) {
-            String[] delElems = req.getParameterValues("updateBox");
-            String delStr = "(";
-            for (int i = 0; i < delElems.length - 1; i++) {
-                delStr += delElems[i] + ",";
+            String[] delElemStr = req.getParameterValues("updateBox");
+            int[] delElemInt = new int[delElemStr.length];
+            for(int i=0; i<delElemInt.length; i++){
+                delElemInt[i] = Integer.parseInt(delElemStr[i]);
             }
 
-            delStr += delElems[delElems.length - 1] + ")";
 
-            DataBaseWorker.delSome(delStr);
+            DataBaseWorker.delSome(delElemInt);
 
 
         }

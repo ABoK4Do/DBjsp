@@ -56,7 +56,10 @@ public class DataBaseWorker {
             //Добавляю новую строку если метод принял 3 переменных
             if(args.length==3){
                 //Узнаю id категории по заданному имени категории
-                CategoryEntity cat = Factory.getInstance().getCategoryDAO().findByName(args[1].toString());
+                CategoryEntity cat=null;
+                List<CategoryEntity> cats = Factory.getInstance().getCategoryDAO().findByName(args[1].toString());
+                if(cats.size()>0)
+                cat = cats.get(0);
 
                 if(cat!=null){
                     cat_id = cat.getId();}
@@ -76,7 +79,7 @@ public class DataBaseWorker {
             log.error("Error while adding");
             e.printStackTrace();
         }
-        log.info("add one elem");
+        log.info("add one elem id="+food.getId());
     }
 
     //Обновить сущность таблицы 1
@@ -86,7 +89,7 @@ public class DataBaseWorker {
         try {
 
 
-            CategoryEntity cat = Factory.getInstance().getCategoryDAO().findByName(catName);
+            CategoryEntity cat = Factory.getInstance().getCategoryDAO().findByName(catName).get(0);
             if(cat!=null){
                 cat_id = cat.getId();}
             food.setId(Integer.parseInt(id));
@@ -106,55 +109,49 @@ public class DataBaseWorker {
 
 
     //Удалить сущность по id блюда
-    public static void delSome(String ids){
-
-      /*  try {
-
+    public static void delSome(int[] ids){
+        FoodsEntity food = new FoodsEntity();
+       try {
+            for(int i=0;i<ids.length;i++){
+                food.setId(ids[i]);
+                Factory.getInstance().getFoodDAO().delete(food);
+            }
         } catch (SQLException e) {
             log.error("Error while deleting");
             e.printStackTrace();
         }
-        log.info("Deleted elements "+ids);*/
+        log.info("Deleted elements ");
 
     }
 
 
     //Найти по имени блюда
-    public static ArrayList<ResultPOJO> searchByName(String name){
-        //Проверяю подключение к базе данных
-        ArrayList<ResultPOJO> listTable = null;
-       /* ResultSet results=null;
+    public static List<FoodsEntity> searchByName(String name){
+
+        List<FoodsEntity> listTable = null;
+
         try {
-            //Удаляю строку
-            stmt = conn.createStatement();
-            results = stmt.executeQuery(searchByNameStatement+"'"+name+"%"+"'");
-            listTable = fromRStoAL(results);
-            stmt.close();
+            listTable = Factory.getInstance().getFoodDAO().findByName(name);
         } catch (SQLException e) {
             log.error("Error while finding by name");
             e.printStackTrace();
         }
-        log.info("found");*/
+        log.info("found");
         return listTable;
 
     }
     //Найти по имени категории
-    public static ArrayList<ResultPOJO> searchByCat(String name){
+   public static List<FoodsEntity> searchByCat(String name){
 
-        ArrayList<ResultPOJO> listTable = null;
-        /*
-        ResultSet results=null;
+        List<FoodsEntity> listTable = null;
+
         try {
-            //Удаляю строку
-            stmt = conn.createStatement();
-            results = stmt.executeQuery(searchByCatStatement+"'"+name+"%"+"'");
-            listTable = fromRStoAL(results);
-            stmt.close();
+            listTable = Factory.getInstance().getCategoryDAO().findByName(name).get(0).getFoods();
         } catch (SQLException e) {
-            log.error("Error while finding by category name");
+            log.error("Error while finding by name");
             e.printStackTrace();
         }
-        log.info("found");*/
+        log.info("found");
         return listTable;
 
     }

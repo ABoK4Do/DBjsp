@@ -1,5 +1,6 @@
 package classes;
 
+import org.codehaus.jackson.annotate.JsonBackReference;
 import org.hibernate.annotations.Proxy;
 
 import javax.persistence.*;
@@ -14,12 +15,16 @@ import java.util.List;
 public class CategoryEntity {
     @Id
     @Column(name = "ID", nullable = false)
+  //  @Expose
     private int id;
 
     @Column(name = "NAME", nullable = false, length = 20)
+   // @Expose
     private String name;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "category")
+  //  @Expose(serialize = false, deserialize = false)
+    @JsonBackReference
     private List<FoodsEntity> foods;
 
 
@@ -37,7 +42,7 @@ public class CategoryEntity {
         this.name = name;
     }
 
-    public List<FoodsEntity> getFoods() {
+   public List<FoodsEntity> getFoods() {
         return foods;
     }
     public void setFoods(List<FoodsEntity> foods) {
