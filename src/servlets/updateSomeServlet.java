@@ -1,7 +1,5 @@
 package servlets;
 
-import classes.DataBaseWorker;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -14,6 +12,7 @@ import java.io.IOException;
 public class updateSomeServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        /*
         if(req.getParameter("typeTableInput").equals("text")) {
             String[] arrayIds = req.getParameterValues("updateBox");
             String[] names = req.getParameterValues("addName");
@@ -50,5 +49,6 @@ public class updateSomeServlet extends HttpServlet {
             }
 
         }
+        */
     }
 }

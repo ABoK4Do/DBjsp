@@ -1,0 +1,14 @@
+Использовано:
+{
+    hibernate
+    log4j
+    AJAX
+    JSON
+    DAO
+    servlets
+    TomCat
+    JavaScript + jQuery
+    HTML+CSS
+}
+
+BD: DerbyDB

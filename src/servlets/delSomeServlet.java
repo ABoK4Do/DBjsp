@@ -1,7 +1,5 @@
 package servlets;
 
-import classes.DataBaseWorker;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -14,7 +12,7 @@ import java.io.IOException;
 public class delSomeServlet extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+/*
         if(req.getParameter("updateBox")!=null) {
             String[] delElemStr = req.getParameterValues("updateBox");
             int[] delElemInt = new int[delElemStr.length];
@@ -29,7 +27,7 @@ public class delSomeServlet extends HttpServlet{
         }
         getServletContext().getRequestDispatcher("/showAllServlet").forward(req, resp);
 
-
+*/
 
     }
 

@@ -12,12 +12,12 @@
         <url-pattern>/addOneAJAX</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>delSomeServlet</servlet-name>
-        <servlet-class>servlets.delSomeServlet</servlet-class>
+        <servlet-name>delOneAJAX</servlet-name>
+        <servlet-class>servlets.delOneAJAX</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>delSomeServlet</servlet-name>
-        <url-pattern>/delSomeServlet</url-pattern>
+        <servlet-name>delOneAJAX</servlet-name>
+        <url-pattern>/delOneAJAX</url-pattern>
     </servlet-mapping>
 
     <servlet>

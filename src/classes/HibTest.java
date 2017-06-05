@@ -5,28 +5,36 @@ package classes;
  */
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class HibTest {
 
     public static void main(String[] args) throws SQLException {
-        String name = "TestServlet";
-        String catName = "pizza";
-        int price = 99;
-        int catId = 0;
+        FoodsEntity foodDel = new FoodsEntity();
+        foodDel.setId(4601);
+        DataBaseWorker.delOne(foodDel);
+
         FoodsEntity food = new FoodsEntity();
-        food.setName(name);
-        List<CategoryEntity> cats = Factory.getInstance().getCategoryDAO().findByName(catName);
-        if (cats.size() > 0) {
-            catId = cats.get(0).getId();
-        }
-        food.setPrice(price);
-        food.setCategoryId(catId);
-        Factory.getInstance().getFoodDAO().insert(food);
-        food.setCategory(Factory.getInstance().getCategoryDAO().findById(catId));
+        food.setName("ServerTest2");
+        food.setCategory(new CategoryEntity());
+        food.getCategory().setName("sss");
+        food.setPrice(111);
+        FoodsEntity food2 = new FoodsEntity();
+        food2.setName("ServerTest3");
+        food2.setCategory(new CategoryEntity());
+        food2.getCategory().setName("sup");
+        food2.setPrice(222);
+        List<FoodsEntity> listTest = new ArrayList<FoodsEntity>();
+        listTest.add(food);
+        listTest.add(food2);
+        DataBaseWorker.addSome(listTest);
 
-        System.out.println(food.getId() + " " + food.getCategory().getName());
+        for(FoodsEntity k: listTest){
+        System.out.println(k.getName() + " | " + k.getId() + " | " + k.getPrice() + " | " + k.getCategoryId() + " | " + k.getCategory().getName());}
 
+
+        //Вся таблица
         List<FoodsEntity> list1 = Factory.getInstance().getFoodDAO().findAll();
 
         System.out.println("========Все foods=========");
