@@ -61,7 +61,7 @@ td:last-child, th:last-child {
     padding-top: 55px;
 }
 
-#addedBut, #updateBut, #yes {
+.updBut, .delBut {
     background-color: inherit;
     border: none;
 }

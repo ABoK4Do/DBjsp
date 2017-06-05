@@ -21,8 +21,8 @@ $(document).on("click", "#hiddenAll", function () {
 
 });
 
-$(document).on("click", "td", function (){
-    var checker = this.parentNode.firstChild.firstChild;
+$(document).on("click", ".simpleRow", function (){
+    var checker = this.firstChild.firstChild;
     if(checker.checked == true){
         checker.checked = false;
     }
@@ -43,7 +43,7 @@ $(document).on("click", "td", function (){
 
 
 function selectAll(elem) {
-
+/*
 
     var x = document.getElementsByName("updateBox")
     var i;
@@ -63,4 +63,33 @@ function selectAll(elem) {
             }
         }
     }
+ */
+}
+
+function backRow(ee) {
+    var row = ee.parentNode.parentNode;
+    var nameTd = row.childNodes.item(2);
+    var catTd = row.childNodes.item(3);
+    var priceTd = row.childNodes.item(4);
+    //Достаю прежние данные
+    var name =nameTd.firstChild.value;
+    nameTd.firstChild.remove();
+    var catName = nameTd.firstChild.value;
+    nameTd.firstChild.remove();
+    var price = nameTd.firstChild.value;
+    nameTd.firstChild.remove();
+    //Очистка под новую инфу
+    nameTd.firstChild.remove();
+    catTd.firstChild.remove();
+    priceTd.firstChild.remove();
+    //Загрузка новой инфы
+    nameTd.innerText = name;
+    catTd.innerText = catName;
+    priceTd.innerText = price;
+    //Смена знаков и функций кнопок
+    row.childNodes.item(5).firstChild.firstChild.setAttribute("src", "img/update.png");
+    row.childNodes.item(5).firstChild.setAttribute("onclick", "updateRow(this)");
+    row.childNodes.item(6).firstChild.firstChild.setAttribute("src", "img/delete.png");
+    row.childNodes.item(6).firstChild.setAttribute("onclick", "deleteRow(this)");
+
 }

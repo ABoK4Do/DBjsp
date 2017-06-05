@@ -15,8 +15,8 @@ $(document).ready(function () {
                     tr.append("<td>" + responseJson[i].name + "</td>");
                     tr.append("<td>" + responseJson[i].category.name + "</td>");
                     tr.append("<td>" + responseJson[i].price + "</td>");
-                    tr.append("<td class='xxx'>" + "<button type='button' name='upd' onclick='updateRow(this)' value=" + responseJson[i].id + "><img src='img/update.png' width='25px' height='25px'></button>" + "</td>");
-                    tr.append("<td>" + "<button type='button'  onclick='deleteRow(this)' value=" + responseJson[i].id + "><img src='img/delete.png' width='25px' height='25px'></button>" + "</td>");
+                    tr.append("<td>" + "<button type='button' name='updBut'' class='updBut' onclick='updateRow(this)' value=" + responseJson[i].id + "><img src='img/update.png' width='25px' height='25px'></button>" + "</td>");
+                    tr.append("<td>" + "<button type='button' name='delBut' class='delBut' onclick='deleteRow(this)' value=" + responseJson[i].id + "><img src='img/delete.png' width='25px' height='25px'></button>" + "</td>");
                     $("#mainTable").append(tr);
                 }
             }
@@ -45,8 +45,8 @@ $(document).ready(function () {
                     tr.append("<td>" + responseJson[i].name + "</td>");
                     tr.append("<td>" + responseJson[i].category.name + "</td>");
                     tr.append("<td>" + responseJson[i].price + "</td>");
-                    tr.append("<td>" + "<button type='button' name='sayHello'  onclick='updateRow(this)' value=" + responseJson[i].id + "><img src='img/update.png' width='25px' height='25px'></button>" + "</td>");
-                    tr.append("<td>" + "<button type='button'  onclick='deleteRow(this)' value=" + responseJson[i].id + "><img src='img/delete.png' width='25px' height='25px'></button>" + "</td>");
+                    tr.append("<td>" + "<button type='button' name='updBut'  class='updBut' onclick='updateRow(this)' value=" + responseJson[i].id + "><img src='img/update.png' width='25px' height='25px'></button>" + "</td>");
+                    tr.append("<td>" + "<button type='button' name='delBut' class='delBut' onclick='deleteRow(this)' value=" + responseJson[i].id + "><img src='img/delete.png' width='25px' height='25px'></button>" + "</td>");
                     $("#mainTable").append(tr);
                 }
             }
@@ -102,11 +102,10 @@ function saveNew(ee) {
                 td.innerHTML = responseJson.price;
                 var td = document.createElement("td");
                 tr.appendChild(td);
-                td.innerHTML = "<button type='button' name='sayHello' onclick='updateRow(this)' value=" + responseJson.id + "><img src='img/update.png' width='25px' height='25px'></button>";
+                td.innerHTML = "<button type='button' name='updBut' class='updBut' onclick='updateRow(this)' value=" + responseJson.id + "><img src='img/update.png' width='25px' height='25px'></button>";
                 var td = document.createElement("td");
                 tr.appendChild(td);
-                td.innerHTML = "<button type='button' onclick='deleteRow(this)' value=" + responseJson.id + "><img src='img/delete.png' width='25px' height='25px'></button>";
-                //$("#mainTable").append(tr);
+                td.innerHTML = "<button type='button' name='delBut' class='delBut' onclick='deleteRow(this)' value=" + responseJson.id + "><img src='img/delete.png' width='25px' height='25px'></button>";
             }
 
 
@@ -116,7 +115,7 @@ function saveNew(ee) {
 
 function updateRow(ee) {
     row = ee.parentNode.parentNode;
-    row.childNodes.item(1).firstChild.checked = true;
+    //row.childNodes.item(1).firstChild.checked = true;
     var nameTd = row.childNodes.item(2);
     var catTd = row.childNodes.item(3);
     var priceTd = row.childNodes.item(4);
@@ -127,7 +126,18 @@ function updateRow(ee) {
     nameTd.innerText = "";
     catTd.innerText = "";
     priceTd.innerText = "";
-
+    var input = document.createElement("input");
+    input.setAttribute("type", "hidden");
+    input.setAttribute("value", name);
+    nameTd.appendChild(input);
+    var input = document.createElement("input");
+    input.setAttribute("type", "hidden");
+    input.setAttribute("value", catName);
+    nameTd.appendChild(input);
+    var input = document.createElement("input");
+    input.setAttribute("type", "hidden");
+    input.setAttribute("value", price);
+    nameTd.appendChild(input);
     var input = document.createElement("input");
     input.setAttribute("type", "text");
     input.setAttribute("value", name);
@@ -141,7 +151,63 @@ function updateRow(ee) {
     input.setAttribute("value", price);
     priceTd.appendChild(input);
 
-    row.childNodes.item(5).firstChild.firstChild.setAttribute("src","img/yes.png");
+    row.childNodes.item(5).firstChild.firstChild.setAttribute("src", "img/yes.png");
+    row.childNodes.item(5).firstChild.setAttribute("onclick", "saveRow(this)");
+    row.childNodes.item(6).firstChild.firstChild.setAttribute("src", "img/back.png");
+    row.childNodes.item(6).firstChild.setAttribute("onclick", "backRow(this)");
+
+}
+
+function saveRow(ee) {
+    var row = ee.parentNode.parentNode;
+    var id = ee.value;
+    var name = row.childNodes.item(2).lastChild.value;
+    var catName = row.childNodes.item(3).firstChild.value;
+    var price = row.childNodes.item(4).firstChild.value;
+    var data1 = {id:id, name: name, catName: catName, price: price};
+
+    $.ajax({
+        type: 'POST',
+        data: data1,
+        //contentType: 'application/json',
+        url: '/updateOneAJAX',
+        success: function (responseJson) {
+
+            if (responseJson != null && responseJson != "") {
+                var tr;
+                while (row.firstChild) {
+                    row.removeChild(row.firstChild);
+                }
+                row.setAttribute("class", "simpleRow")
+                tr = row;
+                var td = document.createElement("td");
+                tr.appendChild(td);
+                td.innerHTML = "<input type='checkbox' name='updateBox' value=''>";
+                var td = document.createElement("td");
+                tr.appendChild(td);
+                td.innerHTML = "<img src='../img/food/default_food.png' height='60px' width='auto'>";
+                var td = document.createElement("td");
+                tr.appendChild(td);
+                td.innerHTML = responseJson.name;
+                var td = document.createElement("td");
+                tr.appendChild(td);
+                td.innerHTML = responseJson.category.name;
+                var td = document.createElement("td");
+                tr.appendChild(td);
+                td.innerHTML = responseJson.price;
+                var td = document.createElement("td");
+                tr.appendChild(td);
+                td.innerHTML = "<button type='button' name='updBut' class='updBut' onclick='updateRow(this)' value=" + responseJson.id + "><img src='img/update.png' width='25px' height='25px'></button>";
+                var td = document.createElement("td");
+                tr.appendChild(td);
+                td.innerHTML = "<button type='button' name='delBut' class='delBut' onclick='deleteRow(this)' value=" + responseJson.id + "><img src='img/delete.png' width='25px' height='25px'></button>";
+
+            }
+
+
+        }
+    });
+
 
 }
 

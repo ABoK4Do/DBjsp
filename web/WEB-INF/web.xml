@@ -11,6 +11,7 @@
         <servlet-name>addOneAJAX</servlet-name>
         <url-pattern>/addOneAJAX</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>delOneAJAX</servlet-name>
         <servlet-class>servlets.delOneAJAX</servlet-class>
@@ -21,47 +22,12 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>delClick</servlet-name>
-        <servlet-class>servlets.delClick</servlet-class>
+        <servlet-name>updateOneAJAX</servlet-name>
+        <servlet-class>servlets.updateOneAJAX</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>delClick</servlet-name>
-        <url-pattern>/delClick</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>searchServlet</servlet-name>
-        <servlet-class>servlets.searchServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>searchServlet</servlet-name>
-        <url-pattern>/searchServlet</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>showAllServlet</servlet-name>
-        <servlet-class>servlets.showAllServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>showAllServlet</servlet-name>
-        <url-pattern>/showAllServlet</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>wayServlet</servlet-name>
-        <servlet-class>servlets.wayServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>wayServlet</servlet-name>
-        <url-pattern>/wayServlet</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>updateSomeServlet</servlet-name>
-        <servlet-class>servlets.updateSomeServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>updateSomeServlet</servlet-name>
-        <url-pattern>/updateSomeServlet</url-pattern>
+        <servlet-name>updateOneAJAX</servlet-name>
+        <url-pattern>/updateOneAJAX</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -72,7 +38,6 @@
         <servlet-name>showAllAJAX</servlet-name>
         <url-pattern>/showAllAJAX</url-pattern>
     </servlet-mapping>
-
 
     <servlet>
         <servlet-name>searchAJAX</servlet-name>
