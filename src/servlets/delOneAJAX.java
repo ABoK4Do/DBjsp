@@ -1,6 +1,6 @@
 package servlets;
 
-import classes.DataBaseWorker;
+import classes.FoodService;
 import classes.FoodsEntity;
 
 import javax.servlet.ServletException;
@@ -17,9 +17,9 @@ public class delOneAJAX extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String id = req.getParameter("id");
         if(id!=null && !id.equals("")){
-            FoodsEntity food = new FoodsEntity();
-            food.setId(Integer.parseInt(id));
-            DataBaseWorker.delOne(food);
+            FoodsEntity foodsEntity = new FoodsEntity();
+            foodsEntity.setId(Integer.parseInt(id));
+            new FoodService().delete(foodsEntity);
         }
     }
 }

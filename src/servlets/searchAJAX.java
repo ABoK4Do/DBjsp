@@ -1,6 +1,6 @@
 package servlets;
 
-import classes.DataBaseWorker;
+import classes.FoodService;
 import classes.FoodsEntity;
 import org.codehaus.jackson.map.ObjectMapper;
 
@@ -16,26 +16,26 @@ import java.util.List;
  */
 public class searchAJAX extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String json = null;
-        if(request.getParameter("searchCat").equals("1")) {
-          List<FoodsEntity> foods = DataBaseWorker.searchByName(request.getParameter("finder"));
-          json = new ObjectMapper().writeValueAsString(foods);
-       // System.out.print(request.getParameterMap());
+    protected void doPost(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
+        String json = "";
+        if (request.getParameter("searchCat").equals("1")) {
+            List<FoodsEntity> foodsEntities = new FoodService().findByName(request.getParameter("finder"));
+            if (foodsEntities != null) {
+                json = new ObjectMapper().writeValueAsString(foodsEntities);
+            }
+
 
 
         }
-        if(request.getParameter("searchCat").equals("2")){
-            List<FoodsEntity> foods = DataBaseWorker.searchByCat(request.getParameter("finder"));
-            json = new ObjectMapper().writeValueAsString(foods);
+        if (request.getParameter("searchCat").equals("2")) {
+            List<FoodsEntity> foodsEntities = new FoodService().findByCategoryName(request.getParameter("finder"));
+            if (foodsEntities != null) {
+                json = new ObjectMapper().writeValueAsString(foodsEntities);
+            }
         }
 
-        response.setContentType("application/json");
-        response.setCharacterEncoding("UTF-8");
-        response.getWriter().write(json);
+        ServletService.setAnswer(resp,json);
 
-       /* if(req.getParameter("searchCat").equals("2")){
-            req.setAttribute("resultArray", DataBaseWorker.(req.getParameter("finder")));
-            getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);}*/
+
     }
 }

@@ -17,13 +17,13 @@ public class DataBaseWorker {
     //Вывести базу в виде List<FoodsEntity>
     public static List<FoodsEntity> showDB() {
         List<FoodsEntity> listTable = null;
-        try {
+       /* try {
             listTable = Factory.getInstance().getFoodDAO().findAll();
         } catch (SQLException e) {
             e.printStackTrace();
         }
         log.info("--->DB showed");
-
+*/
         return listTable;
     }
 
@@ -32,7 +32,7 @@ public class DataBaseWorker {
     public static void addOne(FoodsEntity food) {
         int catId = 0;
 
-        try {
+       /* try {
             List<CategoryEntity> cats = Factory.getInstance().getCategoryDAO().findByName(food.getCategory().getName());
             if (cats.size() > 0) {
                 catId = cats.get(0).getId();
@@ -44,22 +44,23 @@ public class DataBaseWorker {
             log.error("--->Error while adding");
             e.printStackTrace();
         }
-        log.info("--->Added one element id=" + food.getId());
+        log.info("--->Added one element id=" + food.getId());*/
     }
 
 
     //Добавить несколько сущностей в таблицу, получает List<FoodsEntity>, вывод тотже List<FoodsEntity> (обновленный)
     public static void addSome(List<FoodsEntity> foods) {
-        for (FoodsEntity food : foods) {
+       /* for (FoodsEntity food : foods) {
             DataBaseWorker.addOne(food);
         }
         log.info("--->Added some elements");
+        */
     }
 
     //Обновить сущность
     public static void updateOne(FoodsEntity food) {
         int catId = 0;
-        try {
+       /* try {
             List<CategoryEntity> cats = Factory.getInstance().getCategoryDAO().findByName(food.getCategory().getName());
 
             if (cats.size() > 0) {
@@ -74,27 +75,28 @@ public class DataBaseWorker {
             log.error("--->Error while updating");
             e.printStackTrace();
         }
-        log.info("--->Updated one id=" + food.getId());
+        log.info("--->Updated one id=" + food.getId());*/
     }
 
 
     //Обновить сущности
     public static void updateSome(List<FoodsEntity> foods) {
-        for (FoodsEntity food : foods) {
+        /*for (FoodsEntity food : foods) {
             DataBaseWorker.updateOne(food);
         }
         log.info("--->Updated some elements");
+        */
     }
 
     //Удалить сущность по id блюда
     public static void delOne(FoodsEntity food) {
-        try {
+      /*  try {
             Factory.getInstance().getFoodDAO().delete(food);
         } catch (SQLException e) {
             log.error("--->Error while deleting");
             e.printStackTrace();
         }
-        log.info("--->Deleted element");
+        log.info("--->Deleted element");*/
     }
 
 
@@ -111,14 +113,14 @@ public class DataBaseWorker {
     public static List<FoodsEntity> searchByName(String name) {
 
         List<FoodsEntity> listTable = null;
-
+/*
         try {
             listTable = Factory.getInstance().getFoodDAO().findByName(name);
         } catch (SQLException e) {
             log.error("--->Error while finding by name");
             e.printStackTrace();
         }
-        log.info("--->Found");
+        log.info("--->Found");*/
         return listTable;
 
     }
@@ -129,7 +131,12 @@ public class DataBaseWorker {
         List<FoodsEntity> listTable = null;
 
         try {
-            listTable = Factory.getInstance().getCategoryDAO().findByName(name).get(0).getFoods();
+            List<CategoryEntity> cats = Factory.getInstance().getCategoryDAO().findByName(name);
+
+            if (cats.size() > 0) {
+                listTable = Factory.getInstance().getCategoryDAO().findByName(name).get(0).getFoods();
+            }
+
         } catch (SQLException e) {
             log.error("--->Error while finding by name");
             e.printStackTrace();

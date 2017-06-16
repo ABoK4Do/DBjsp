@@ -2,54 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01bc3e66-7b9c-4f3e-86e4-8256d8f637dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/classes/DataBaseWorkerCopy.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log63.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/classes/DataBaseWorkerCopy.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DataBaseWorkerCopy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/classes/DataBaseWorkerCopy.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log62.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/DataBaseWorker.java" afterPath="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c251.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c251.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodsEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/searchServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/searchServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/CategoryDAO.java" afterPath="$PROJECT_DIR$/src/classes/CategoryDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/CategoryDAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/CategoryDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log.ctrl" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DataBaseWorker.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DataBaseWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/HibTest.java" afterPath="$PROJECT_DIR$/src/classes/HibTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c10.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c10.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/DAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/DAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/DAO.java" afterPath="$PROJECT_DIR$/src/classes/DAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c600.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c600.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c241.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c241.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlets/delSomeServlet.java" afterPath="$PROJECT_DIR$/src/servlets/delSomeServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBjsp.iml" afterPath="$PROJECT_DIR$/DBjsp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/FoodDAO.java" afterPath="$PROJECT_DIR$/src/classes/FoodDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c611.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c611.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/HibTest.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/HibTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/db.lck" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/db.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/loger.log" afterPath="$PROJECT_DIR$/src/loger.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/delSomeServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/delSomeServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/searchServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/searchServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DAO.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c400.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c400.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/DataBaseWorker.class" afterPath="$PROJECT_DIR$/target/classes/classes/DataBaseWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/delSomeServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/delSomeServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/derby.log" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c621.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c621.dat" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/classes/DataBaseWorkerCopy.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loger.log" afterPath="$PROJECT_DIR$/target/classes/loger.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/HibTest.class" afterPath="$PROJECT_DIR$/target/classes/classes/HibTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c230.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c230.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/CategoryDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/CategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/DAO.java" afterPath="$PROJECT_DIR$/src/classes/DAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c400.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c400.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/logmirror.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/FoodsEntity.java" afterPath="$PROJECT_DIR$/src/classes/FoodsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/FoodDAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/FoodDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/loger.log" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/loger.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/HibTest.java" afterPath="$PROJECT_DIR$/src/classes/HibTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/delSomeServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/delSomeServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/FoodsEntity.class" afterPath="$PROJECT_DIR$/target/classes/classes/FoodsEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/DAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/DAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/CategoryDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/CategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DataBaseWorker.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DataBaseWorker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/FoodDAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/FoodDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/derby.log" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/derby.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/searchServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/searchServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/CategoryDAO.class" afterPath="$PROJECT_DIR$/target/classes/classes/CategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c600.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c600.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c10.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c10.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/FoodsEntity.java" afterPath="$PROJECT_DIR$/src/classes/FoodsEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c251.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c251.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log.ctrl" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/log/log.ctrl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c621.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c621.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/FoodDAO.java" afterPath="$PROJECT_DIR$/src/classes/FoodDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/loger.log" afterPath="$PROJECT_DIR$/src/loger.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/searchServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/servlets/searchServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c230.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c230.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBjsp.iml" afterPath="$PROJECT_DIR$/DBjsp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/HibTest.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/HibTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/DataBaseWorker.java" afterPath="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DAO.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/DAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/HibTest.class" afterPath="$PROJECT_DIR$/target/classes/classes/HibTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/loger.log" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/loger.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/classes/DataBaseWorker.class" afterPath="$PROJECT_DIR$/target/classes/classes/DataBaseWorker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodsEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/DBjsp_war_exploded/WEB-INF/classes/classes/FoodsEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c241.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c241.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/db.lck" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/db.lck" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/delSomeServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlets/delSomeServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c611.dat" afterPath="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/bin/Restaurant/seg0/c611.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/CategoryDAO.java" afterPath="$PROJECT_DIR$/src/classes/CategoryDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlets/delSomeServlet.java" afterPath="$PROJECT_DIR$/src/servlets/delSomeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="DBjsp-git.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,6 +98,24 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="hibernate.cfg.xml/Hibernate" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="APP" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="CATEGORY" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -111,23 +129,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="func.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/func.js">
+      <file leaf-file-name="HibTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/HibTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+            <state relative-caret-position="-135">
+              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
               <folding>
-                <element signature="n#!!doc;n#addRow#0" expanded="false" />
+                <marker date="1497578763000" expanded="false" signature="762:775" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ajax.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/Ajax.js">
+      <file leaf-file-name="FoodService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/FoodService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1304">
-              <caret line="117" column="53" lean-forward="true" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+            <state relative-caret-position="330">
+              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/CategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/GenericDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="80" column="8" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="43" />
+              <folding>
+                <element signature="e#728#729#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchAJAX.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlets/searchAJAX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="21" column="84" lean-forward="false" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/CategoryEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseWorker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -156,6 +230,8 @@
       <find>showAll</find>
       <find>i.</find>
       <find>back</find>
+      <find>padding</find>
+      <find>delOne</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,57 +252,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/mylogfile.log" />
-        <option value="$PROJECT_DIR$/src/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/loger.log" />
-        <option value="$PROJECT_DIR$/src/classes/ResultPOJO.java" />
-        <option value="$PROJECT_DIR$/out/production/DBjsp/log4j.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/style.css" />
-        <option value="$PROJECT_DIR$/src/servlets/addOneServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlets/delOneServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlets/delClick.java" />
         <option value="$PROJECT_DIR$/src/servlets/wayServlet.java" />
         <option value="$PROJECT_DIR$/src/classes/HibernateTest.java" />
         <option value="$PROJECT_DIR$/src/classes/CatDAO.java" />
         <option value="$PROJECT_DIR$/src/classes/Food.java" />
         <option value="$PROJECT_DIR$/src/classes/Category.java" />
         <option value="$PROJECT_DIR$/src/classes/HibernateSessionFactory.java" />
-        <option value="$PROJECT_DIR$/src/classes/Factory.java" />
-        <option value="$PROJECT_DIR$/src/classes/HibernateUtil.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/28d2fa64-696f-4514-bd48-77acba28f07d/console.sql" />
         <option value="$PROJECT_DIR$/src/classes/DataBseWorkerCopy.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/classes/DataBaseWorkerCopy.java" />
         <option value="$PROJECT_DIR$/src/servlets/showAllServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/classes/DAO.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/index.html" />
         <option value="$PROJECT_DIR$/src/servlets/searchServlet.java" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/src/classes/CategoryDAO.java" />
-        <option value="$PROJECT_DIR$/src/classes/FoodDAO.java" />
-        <option value="$PROJECT_DIR$/src/classes/CategoryEntity.java" />
-        <option value="$PROJECT_DIR$/src/classes/FoodsEntity.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/servlets/showAllAJAX.java" />
-        <option value="$PROJECT_DIR$/src/servlets/searchAJAX.java" />
         <option value="$PROJECT_DIR$/web/js/script.js" />
         <option value="$PROJECT_DIR$/src/classes/test.java" />
-        <option value="$PROJECT_DIR$/src/servlets/addSomeAJAX.java" />
         <option value="$PROJECT_DIR$/about.txt" />
         <option value="$PROJECT_DIR$/src/servlets/updateSomeServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/delSomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/classes/HibTest.java" />
         <option value="$PROJECT_DIR$/src/servlets/addSomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlets/addOneAJAX.java" />
-        <option value="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
-        <option value="$PROJECT_DIR$/src/servlets/delOneAJAX.java" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/servlets/updateOneAJAX.java" />
-        <option value="$PROJECT_DIR$/web/js/func.js" />
         <option value="$PROJECT_DIR$/web/css/indexcss.css" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/js/func.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/servlets/addSomeAJAX.java" />
         <option value="$PROJECT_DIR$/web/js/Ajax.js" />
+        <option value="$PROJECT_DIR$/src/classes/DAO.java" />
+        <option value="$PROJECT_DIR$/src/classes/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/classes/FoodDAO.java" />
+        <option value="$PROJECT_DIR$/src/classes/EntityDAO.java" />
+        <option value="$PROJECT_DIR$/src/classes/Factory.java" />
+        <option value="$PROJECT_DIR$/src/classes/GenericService.java" />
+        <option value="$PROJECT_DIR$/src/classes/FoodsEntity.java" />
+        <option value="$PROJECT_DIR$/src/classes/TestService.java" />
+        <option value="$PROJECT_DIR$/src/classes/ExtraDao.java" />
+        <option value="$PROJECT_DIR$/src/classes/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/classes/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/servlets/Service.java" />
+        <option value="$PROJECT_DIR$/src/servlets/showAllAJAX.java" />
+        <option value="$PROJECT_DIR$/src/servlets/delOneAJAX.java" />
+        <option value="$PROJECT_DIR$/src/classes/HibTest.java" />
+        <option value="$PROJECT_DIR$/src/classes/CategoryEntity.java" />
+        <option value="$PROJECT_DIR$/src/servlets/ServletService.java" />
+        <option value="$PROJECT_DIR$/src/servlets/addOneAJAX.java" />
+        <option value="$PROJECT_DIR$/src/servlets/updateOneAJAX.java" />
+        <option value="$PROJECT_DIR$/src/classes/DataBaseWorker.java" />
+        <option value="$PROJECT_DIR$/src/classes/GenericDAO.java" />
+        <option value="$PROJECT_DIR$/src/servlets/searchAJAX.java" />
+        <option value="$PROJECT_DIR$/src/classes/FoodService.java" />
       </list>
     </option>
   </component>
@@ -289,9 +365,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -496,6 +570,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1154,12 +1230,15 @@
       <workItem from="1496188200359" duration="5583000" />
       <workItem from="1496276751309" duration="24388000" />
       <workItem from="1496606402821" duration="14877000" />
-      <workItem from="1496654526892" duration="10176000" />
+      <workItem from="1496654526892" duration="23454000" />
+      <workItem from="1496928343138" duration="3816000" />
+      <workItem from="1497463920576" duration="22244000" />
+      <workItem from="1497561402386" duration="5094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195662000" />
+    <option name="totallyTimeSpent" value="240094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1177,74 +1256,38 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.2725322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33734939" sideWeight="0.64663804" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32650602" sideWeight="0.72746783" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.26506025" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18168813" sideWeight="0.73493975" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.5048193" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.5048193" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49213162" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.51287556" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.48712447" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33734939" sideWeight="0.64663804" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32650602" sideWeight="0.72746783" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.26506025" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49213162" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190272" sideWeight="0.73493975" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.5048193" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881259" sideWeight="0.73493975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.5048193" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.5048193" order="8" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018598" sideWeight="0.5048193" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49213162" order="13" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1267,7 +1310,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1288,151 +1331,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/hibernate-core-4.1.1.Final.jar!/org/hibernate/proxy/AbstractLazyInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/8ea309f4/28d2fa64-696f-4514-bd48-77acba28f07d/APP.CUSTOMER">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/8ea309f4/28d2fa64-696f-4514-bd48-77acba28f07d/APP.FOODS1">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/8ea309f4/28d2fa64-696f-4514-bd48-77acba28f07d/APP.HIBERNATE_SEQUENCES">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBjsp.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="132" column="68" lean-forward="true" selection-start-line="132" selection-start-column="68" selection-end-line="132" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/derby.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/28d2fa64-696f-4514-bd48-77acba28f07d/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/8ea309f4/28d2fa64-696f-4514-bd48-77acba28f07d/APP.CATEGORY">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/DataBseWorkerCopy.java" />
-    <entry file="file://$PROJECT_DIR$/src/classes/ResultPOJO.java" />
-    <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorkerCopy.java" />
-    <entry file="file://$PROJECT_DIR$/src/servlets/wayServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/servlets/delClick.java" />
-    <entry file="file://$PROJECT_DIR$/DBjsp-git.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/showAllServlet.java" />
-    <entry file="jar://$USER_HOME$/Downloads/jackson-databind-2.7.9.jar!/com/fasterxml/jackson/databind/ObjectMapper.class" />
-    <entry file="file://$PROJECT_DIR$/localsrc/apache-tomcat-8.5.9/lib/jackson-core-asl-1.9.11.jar/org/codehaus/jackson/io/IOContext.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/food/default_food.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/classes/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/servlets/searchAJAX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8634">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/8ea309f4/6a7277dc-ec7d-465c-b051-38382c387bbc/APP.FOODS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="dbDummy://dbtable:/8ea309f4/28d2fa64-696f-4514-bd48-77acba28f07d/APP.FOODS">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1441,191 +1364,337 @@
           </column-attributes>
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/delSomeServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/servlets/updateSomeServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/classes/HibTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#811#824#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/addSomeServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/servlets/showAllAJAX.java">
+    <entry file="file://$PROJECT_DIR$/src/servlets/searchServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/css/indexcss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="303">
+          <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+        <state relative-caret-position="540">
+          <caret line="36" column="94" lean-forward="false" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/searchServlet.java" />
     <entry file="file://$PROJECT_DIR$/web/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="840">
+          <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/addOneAJAX.java">
+    <entry file="file://$PROJECT_DIR$/web/js/func.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/delOneAJAX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-33">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        <state relative-caret-position="29">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/Ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/updateOneAJAX.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="62" column="46" lean-forward="true" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CategoryDAO.java">
+    <entry file="jar://$USER_HOME$/Downloads/hibernate-core-4.1.1.Final.jar!/org/hibernate/internal/CriteriaImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="120" column="17" lean-forward="false" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+        <state relative-caret-position="215">
+          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/hibernate-core-4.1.1.Final.jar!/org/hibernate/internal/AbstractSessionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/hibernate-core-4.1.1.Final.jar!/org/hibernate/internal/SessionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/hibernate-core-4.1.1.Final.jar!/org/hibernate/collection/internal/AbstractPersistentCollection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="430" column="0" lean-forward="false" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/hibernate-core-4.1.1.Final.jar!/org/hibernate/collection/internal/PersistentBag.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="369" column="0" lean-forward="false" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../db-derby-10.13.1.1-bin/lib/derby.jar!/org/apache/derby/impl/services/daemon/BasicDaemon.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/ref/ReferenceQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/ref/Finalizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="381" column="29" lean-forward="false" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CategoryEntity.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/ref/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="149">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/DAO.java">
+    <entry file="file://$PROJECT_DIR$/src/classes/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="131">
+          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/HibernateUtil.java">
+    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/javax/persistence/FetchType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/FoodsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/FoodDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/classes/ExtraDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/classes/TestService.java" />
+    <entry file="file://$PROJECT_DIR$/src/classes/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/GenericService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/indexcss.css">
+    <entry file="file://$PROJECT_DIR$/src/classes/CategoryDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        <state relative-caret-position="-120">
+          <caret line="95" column="32" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/Ajax.js">
+    <entry file="file://$PROJECT_DIR$/src/servlets/showAllAJAX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1304">
-          <caret line="117" column="53" lean-forward="true" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+        <state relative-caret-position="135">
+          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/func.js">
+    <entry file="file://$PROJECT_DIR$/src/servlets/addSomeAJAX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/8ea309f4/28d2fa64-696f-4514-bd48-77acba28f07d/APP.CATEGORY">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/delOneAJAX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/CategoryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/addOneAJAX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/ServletService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="85" lean-forward="false" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/updateOneAJAX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/searchAJAX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="84" lean-forward="false" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/DataBaseWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/GenericDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="80" column="8" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="43" />
           <folding>
-            <element signature="n#!!doc;n#addRow#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/FoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/HibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <marker date="1497578763000" expanded="false" signature="762:775" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>

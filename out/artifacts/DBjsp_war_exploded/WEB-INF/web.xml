@@ -48,5 +48,14 @@
         <url-pattern>/searchAJAX</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>addSomeAJAX</servlet-name>
+        <servlet-class>servlets.addSomeAJAX</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addSomeAJAX</servlet-name>
+        <url-pattern>/addSomeAJAX</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

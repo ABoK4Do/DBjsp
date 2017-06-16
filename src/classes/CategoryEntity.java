@@ -15,15 +15,12 @@ import java.util.List;
 public class CategoryEntity {
     @Id
     @Column(name = "ID", nullable = false)
-  //  @Expose
     private int id;
 
     @Column(name = "NAME", nullable = false, length = 20)
-   // @Expose
     private String name;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "category")
-  //  @Expose(serialize = false, deserialize = false)
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "category")
     @JsonBackReference
     private List<FoodsEntity> foods;
 
@@ -47,25 +44,5 @@ public class CategoryEntity {
     }
     public void setFoods(List<FoodsEntity> foods) {
         this.foods = foods;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        CategoryEntity that = (CategoryEntity) o;
-
-        if (id != that.id) return false;
-        if (name != null ? !name.equals(that.name) : that.name != null) return false;
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = id;
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        return result;
     }
 }

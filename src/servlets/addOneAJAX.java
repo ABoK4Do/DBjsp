@@ -1,8 +1,6 @@
 package servlets;
 
-import classes.CategoryEntity;
-import classes.DataBaseWorker;
-import classes.FoodsEntity;
+import classes.*;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import javax.servlet.ServletException;
@@ -19,24 +17,21 @@ public class addOneAJAX extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String json = "";
         String name = req.getParameter("name");
-        String catName = req.getParameter("catName");
+        String categoryName = req.getParameter("catName");
         String priceStr = req.getParameter("price");
         if ((name!=null) && (!name.equals(""))) {
             if ((priceStr!=null) && (!priceStr.equals(""))) {
-                FoodsEntity food = new FoodsEntity();
-                food.setName(name);
-                food.setCategory(new CategoryEntity());
-                food.getCategory().setName(catName);
-                food.setPrice(Integer.parseInt(priceStr));
-                DataBaseWorker.addOne(food);
-                json = new ObjectMapper().writeValueAsString(food);
+                FoodsEntity foodsEntity = new FoodsEntity();
+                foodsEntity.setName(name);
+                ServletService.setCategory(foodsEntity,categoryName);
+                foodsEntity.setPrice(Integer.parseInt(priceStr));
+                new FoodService().insert(foodsEntity);
+                json = new ObjectMapper().writeValueAsString(foodsEntity);
             }
         }
 
 
-        resp.setContentType("application/json");
-        resp.setCharacterEncoding("UTF-8");
-        resp.getWriter().write(json);
+        ServletService.setAnswer(resp,json);
     }
 }
 

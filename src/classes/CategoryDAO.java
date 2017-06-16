@@ -101,7 +101,7 @@ public class CategoryDAO implements DAO<CategoryEntity> {
             JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'find'", JOptionPane.OK_OPTION);
         } finally {
             if (session != null && session.isOpen()) {
-               // session.close();
+                session.close();
             }
         }
 
@@ -118,7 +118,7 @@ public class CategoryDAO implements DAO<CategoryEntity> {
             JOptionPane.showMessageDialog(null, e.getMessage(), "Ошибка 'findAll'", JOptionPane.OK_OPTION);
         } finally {
             if (session != null && session.isOpen()) {
-               // session.close();
+                session.close();
             }
         }
         return cats;

@@ -55,11 +55,91 @@ $(document).ready(function () {
 
     });
 
+    $(document).on("click", "#saveBut", function () {
+        var rows = document.getElementsByClassName("additionalRow");
+        var data1 = [];
+        for (var i = 0; i < rows.length; i++) {
+            var name = rows[i].childNodes.item(2).firstChild.value;
+            var catName = rows[i].childNodes.item(3).firstChild.value;
+            var price = rows[i].childNodes.item(4).firstChild.value;
+            if ((name == "") || (price == "")) {
+                rows[i].setAttribute("name", "delIt");
+            } else {
+                data1[data1.length] = {name: name, catName: catName, price: price};
+            }
+
+        }
+        var delRows = document.getElementsByName("delIt");
+        while (delRows.length) {
+            delRows[0].remove();
+        }
+
+
+        $.ajax({
+            type: 'POST',
+            data: data1,
+            dataType: 'json',
+            //contentType: 'application/json',
+            url: '/addSomeAJAX',
+            success: function (responseJson) {
+
+                if (responseJson != null && responseJson != "") {
+                    for (i = 0; i < responseJson.length; i++) {
+                        var tr= rows[0];
+                        while (tr.firstChild) {
+                            tr.removeChild(tr.firstChild);
+                        }
+                        tr.setAttribute("class", "simpleRow")
+                        var td = document.createElement("td");
+                        tr.appendChild(td);
+                        td.innerHTML = "<input type='checkbox' name='updateBox' value=''>";
+                        var td = document.createElement("td");
+                        tr.appendChild(td);
+                        td.innerHTML = "<img src='../img/food/default_food.png' height='60px' width='auto'>";
+                        var td = document.createElement("td");
+                        tr.appendChild(td);
+                        td.innerHTML = responseJson[i].name;
+                        var td = document.createElement("td");
+                        tr.appendChild(td);
+                        td.innerHTML = responseJson[i].category.name;
+                        var td = document.createElement("td");
+                        tr.appendChild(td);
+                        td.innerHTML = responseJson[i].price;
+                        var td = document.createElement("td");
+                        tr.appendChild(td);
+                        td.innerHTML = "<button type='button' name='updBut' class='updBut' onclick='updateRow(this)' value=" + responseJson[i].id + "><img src='img/update.png' width='25px' height='25px'></button>";
+                        var td = document.createElement("td");
+                        tr.appendChild(td);
+                        td.innerHTML = "<button type='button' name='delBut' class='delBut' onclick='deleteRow(this)' value=" + responseJson[i].id + "><img src='img/delete.png' width='25px' height='25px'></button>";
+                    }
+
+                }
+
+
+            }
+        });
+    });
+
 
     $(document).on("click", "#checkBut", function () {
-        var row = document.getElementsByName('yes1').item(0).parentNode.parentNode.childNodes.item(6).firstChild.value;
-        // var name = row.getElementsByName('addName').val();
-        alert(row);
+        var rows = document.getElementsByClassName("additionalRow");
+        var data1 = [];
+        for (var i = 0; i < rows.length; i++) {
+            var name = rows[i].childNodes.item(2).firstChild.value;
+            var catName = rows[i].childNodes.item(3).firstChild.value;
+            var price = rows[i].childNodes.item(4).firstChild.value;
+            if ((name == "") || (price == "")) {
+                rows[i].setAttribute("name", "delIt");
+            } else {
+                data1[data1.length] = {name: name, catName: catName, price: price};
+            }
+
+        }
+        var delRows = document.getElementsByName("delIt");
+        while (delRows.length) {
+            delRows[0].remove();
+        }
+        alert("len:" + rows.length + "other:" + data1);
     });
 
 });
@@ -115,7 +195,7 @@ function saveNew(ee) {
 
 function updateRow(ee) {
     row = ee.parentNode.parentNode;
-    //row.childNodes.item(1).firstChild.checked = true;
+    row.childNodes.item(1).firstChild.checked = true;
     var nameTd = row.childNodes.item(2);
     var catTd = row.childNodes.item(3);
     var priceTd = row.childNodes.item(4);
@@ -164,7 +244,7 @@ function saveRow(ee) {
     var name = row.childNodes.item(2).lastChild.value;
     var catName = row.childNodes.item(3).firstChild.value;
     var price = row.childNodes.item(4).firstChild.value;
-    var data1 = {id:id, name: name, catName: catName, price: price};
+    var data1 = {id: id, name: name, catName: catName, price: price};
 
     $.ajax({
         type: 'POST',
@@ -217,6 +297,10 @@ function deleteRow(ee) {
     if (id == "del") {
         var i = row.rowIndex;
         document.getElementById('mainTable').deleteRow(i);
+        if (document.getElementsByClassName("delBut").length == 0) {
+            hidButtons("save");
+        }
+
     } else {
         $.ajax({
             type: 'POST',

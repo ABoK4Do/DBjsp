@@ -1,7 +1,6 @@
 package servlets;
 
-import classes.CategoryEntity;
-import classes.DataBaseWorker;
+import classes.FoodService;
 import classes.FoodsEntity;
 import org.codehaus.jackson.map.ObjectMapper;
 
@@ -20,24 +19,21 @@ public class updateOneAJAX extends HttpServlet {
         String json = "";
         String id = req.getParameter("id");
         String name = req.getParameter("name");
-        String catName = req.getParameter("catName");
+        String categoryName = req.getParameter("catName");
         String price = req.getParameter("price");
         if ((name!=null) && (!name.equals(""))) {
             if ((price!=null) && (!price.equals(""))) {
-                FoodsEntity food = new FoodsEntity();
-                food.setId(Integer.parseInt(id));
-                food.setName(name);
-                food.setCategory(new CategoryEntity());
-                food.getCategory().setName(catName);
-                food.setPrice(Integer.parseInt(price));
-                DataBaseWorker.updateOne(food);
-                json = new ObjectMapper().writeValueAsString(food);
+                FoodsEntity foodsEntity = new FoodsEntity();
+                foodsEntity.setId(Integer.parseInt(id));
+                foodsEntity.setName(name);
+                ServletService.setCategory(foodsEntity,categoryName);
+                foodsEntity.setPrice(Integer.parseInt(price));
+                new FoodService().update(foodsEntity);
+                json = new ObjectMapper().writeValueAsString(foodsEntity);
             }
         }
 
 
-        resp.setContentType("application/json");
-        resp.setCharacterEncoding("UTF-8");
-        resp.getWriter().write(json);
+        ServletService.setAnswer(resp,json);
     }
 }

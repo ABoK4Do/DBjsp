@@ -5,13 +5,11 @@ package classes;
  */
 
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class HibTest {
 
     public static void main(String[] args) throws SQLException {
-        FoodsEntity foodDel = new FoodsEntity();
+        /*FoodsEntity foodDel = new FoodsEntity();
         foodDel.setId(4601);
         DataBaseWorker.delOne(foodDel);
 
@@ -42,6 +40,10 @@ public class HibTest {
         for (FoodsEntity i : list1) {
             System.out.println(i.getName() + " | " + i.getId() + " | " + i.getPrice() + " | " + i.getCategoryId() + " | " + i.getCategory().getName());
         }
+    */
+       FoodService foodService = new FoodService();
+       System.out.println(foodService.findByCategoryName("sup"));
 
     }
+
 }

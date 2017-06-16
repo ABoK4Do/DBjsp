@@ -9,10 +9,13 @@ import java.util.List;
 public interface DAO<T> {
 
     void insert(T entity) throws SQLException;
+
     void update(T entity) throws SQLException;
+
     void delete(T entity) throws SQLException;
+
     T findById(int id) throws SQLException;
-    List<T> findByName(String name) throws SQLException;
+
     List<T> findAll() throws SQLException;
 
 }

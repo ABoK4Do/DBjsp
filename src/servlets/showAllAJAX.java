@@ -1,6 +1,6 @@
 package servlets;
 
-import classes.DataBaseWorker;
+import classes.FoodService;
 import classes.FoodsEntity;
 import org.codehaus.jackson.map.ObjectMapper;
 
@@ -16,12 +16,9 @@ import java.util.List;
  */
 public class showAllAJAX extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
-        List<FoodsEntity> foods = DataBaseWorker.showDB();
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        List<FoodsEntity> foods = (new FoodService()).findAll();
         String json = new ObjectMapper().writeValueAsString(foods);
-
-        response.setContentType("application/json");
-        response.setCharacterEncoding("UTF-8");
-        response.getWriter().write(json);
+        ServletService.setAnswer(resp,json);
     }
 }

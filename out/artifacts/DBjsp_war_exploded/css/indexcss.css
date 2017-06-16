@@ -3,6 +3,7 @@ body {
     background-color: #fdffd5;
     padding-left: 2%;
     padding-right: 2%;
+    padding-top:0px;
 }
 
 table {
@@ -51,6 +52,7 @@ td:last-child, th:last-child {
 }
 
 #butdiv {
+    padding-top:0px;
     position: fixed;
     background-color: inherit ;
     width: 100%;
