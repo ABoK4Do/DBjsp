@@ -26,7 +26,7 @@ public class updateOneAJAX extends HttpServlet {
                 FoodsEntity foodsEntity = new FoodsEntity();
                 foodsEntity.setId(Integer.parseInt(id));
                 foodsEntity.setName(name);
-                ServletService.setCategory(foodsEntity,categoryName);
+                ServletService.setCategoryByName(foodsEntity,categoryName);
                 foodsEntity.setPrice(Integer.parseInt(price));
                 new FoodService().update(foodsEntity);
                 json = new ObjectMapper().writeValueAsString(foodsEntity);

@@ -4,11 +4,13 @@ package classes;
  * Created by ABoK4Do on 11.05.17.
  */
 
-import java.sql.SQLException;
+import org.codehaus.jackson.map.ObjectMapper;
+
+import java.io.IOException;
 
 public class HibTest {
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws IOException {
         /*FoodsEntity foodDel = new FoodsEntity();
         foodDel.setId(4601);
         DataBaseWorker.delOne(foodDel);
@@ -41,9 +43,13 @@ public class HibTest {
             System.out.println(i.getName() + " | " + i.getId() + " | " + i.getPrice() + " | " + i.getCategoryId() + " | " + i.getCategory().getName());
         }
     */
-       FoodService foodService = new FoodService();
-       System.out.println(foodService.findByCategoryName("sup"));
-
+        ObjectMapper mapper = new ObjectMapper();
+        FoodsEntity food1 = new FoodService().findAll().get(0);
+        String json = mapper.writeValueAsString(food1);
+        System.out.println("class: "+json.getClass()+"|value="+json);
+        FoodsEntity backFood = mapper.readValue(json, FoodsEntity.class);
+        System.out.println("DONE");
+        System.out.println(backFood.getName()+"|");
     }
 
 }

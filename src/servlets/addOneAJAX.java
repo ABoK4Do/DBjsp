@@ -23,7 +23,7 @@ public class addOneAJAX extends HttpServlet {
             if ((priceStr!=null) && (!priceStr.equals(""))) {
                 FoodsEntity foodsEntity = new FoodsEntity();
                 foodsEntity.setName(name);
-                ServletService.setCategory(foodsEntity,categoryName);
+                ServletService.setCategoryByName(foodsEntity,categoryName);
                 foodsEntity.setPrice(Integer.parseInt(priceStr));
                 new FoodService().insert(foodsEntity);
                 json = new ObjectMapper().writeValueAsString(foodsEntity);

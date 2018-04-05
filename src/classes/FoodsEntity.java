@@ -1,7 +1,6 @@
 package classes;
 
 
-import org.codehaus.jackson.annotate.JsonManagedReference;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 import org.hibernate.annotations.Proxy;
@@ -32,7 +31,6 @@ public class FoodsEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @Fetch(FetchMode.JOIN)
     @JoinColumn(name = "CATEGORY_ID", insertable = false, updatable = false, nullable = true)
-    @JsonManagedReference
     private CategoryEntity category;
 
 

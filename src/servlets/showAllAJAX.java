@@ -19,6 +19,6 @@ public class showAllAJAX extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<FoodsEntity> foods = (new FoodService()).findAll();
         String json = new ObjectMapper().writeValueAsString(foods);
-        ServletService.setAnswer(resp,json);
+        ServletService.setAnswer(resp, json);
     }
 }

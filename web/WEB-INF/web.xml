@@ -22,12 +22,30 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>delSomeAJAX</servlet-name>
+        <servlet-class>servlets.delSomeAJAX</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delSomeAJAX</servlet-name>
+        <url-pattern>/delSomeAJAX</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>updateOneAJAX</servlet-name>
         <servlet-class>servlets.updateOneAJAX</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>updateOneAJAX</servlet-name>
         <url-pattern>/updateOneAJAX</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateSomeAJAX</servlet-name>
+        <servlet-class>servlets.updateSomeAJAX</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateSomeAJAX</servlet-name>
+        <url-pattern>/updateSomeAJAX</url-pattern>
     </servlet-mapping>
 
     <servlet>

@@ -1,15 +1,15 @@
 package servlets;
 
+import classes.FoodService;
 import classes.FoodsEntity;
+import org.codehaus.jackson.map.ObjectMapper;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by ABoK4Do on 05.06.17.
@@ -17,15 +17,17 @@ import java.util.Map;
 public class addSomeAJAX extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        List<FoodsEntity> foods = new ArrayList<FoodsEntity>();
-        String names = req.getParameter("3");
-        Map test = req.getParameterMap();
-        String[] prices = req.getParameterValues("price");
-
-        System.out.println("name" + names + "map:" + test.keySet());
+        String json = "";
+        List<FoodsEntity> entityList = ServletService.fromJsonToFoodEntityList(req);
+        if (entityList != null) {
+            for (FoodsEntity foodsEntity : entityList) {
+                ServletService.setCategoryByName(foodsEntity, foodsEntity.getCategory().getName());
+            }
+            new FoodService().insert(entityList);
+            json = new ObjectMapper().writeValueAsString(entityList);
+        }
+        ServletService.setAnswer(resp, json);
     }
-
 }
 
 
